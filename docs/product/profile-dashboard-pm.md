@@ -38,6 +38,7 @@ Rejected compromises:
 - GitHub required a manual `Share to Profile` action before rendering the README on the Overview page.
 - Profile pins are configured for five public repositories: `clarity_lazyvim`, `codex-custom-model-picker-repair`, `zsh_config`, `Nongfsq`, and `pi-monitor`.
 - Private repositories can be reached by the owner through GitHub search links, but cannot be shown as public pinned cards.
+- `github-readme-stats.vercel.app` returned `DEPLOYMENT_PAUSED` during verification, so the dashboard uses stable HTML project cards instead of that service.
 
 ## Proposed Behavior
 
@@ -64,6 +65,6 @@ Rejected compromises:
 
 ## Risks
 
-- Third-party dynamic image services may be slow or temporarily unavailable.
+- Third-party dynamic image services may be slow or temporarily unavailable; broken services should be removed rather than tolerated as broken images.
 - GitHub search behavior differs for logged-in owner versus public visitor.
 - Profile README rendering can be affected by GitHub caching after changes.

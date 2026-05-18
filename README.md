@@ -54,25 +54,41 @@ I use GitHub as a remote cockpit for small durable systems: private products, pe
   <tr>
     <td width="50%">
       <a href="https://github.com/Nongfsq/clarity_lazyvim">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nongfsq&repo=clarity_lazyvim&theme=transparent&hide_border=true&title_color=0f766e&text_color=334155&icon_color=0f766e" alt="clarity_lazyvim" />
+        <strong>clarity_lazyvim</strong>
       </a>
+      <br />
+      Accessible LazyVim configuration focused on readability and clarity.
+      <br />
+      <sub>Lua · public template · 8 stars</sub>
     </td>
     <td width="50%">
       <a href="https://github.com/Nongfsq/pi-monitor">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nongfsq&repo=pi-monitor&theme=transparent&hide_border=true&title_color=2563eb&text_color=334155&icon_color=2563eb" alt="pi-monitor" />
+        <strong>pi-monitor</strong>
       </a>
+      <br />
+      Raspberry Pi website monitoring with RGB LED status and web UI.
+      <br />
+      <sub>Python · public app</sub>
     </td>
   </tr>
   <tr>
     <td width="50%">
       <a href="https://github.com/Nongfsq/zsh_config">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nongfsq&repo=zsh_config&theme=transparent&hide_border=true&title_color=7c2d12&text_color=334155&icon_color=7c2d12" alt="zsh_config" />
+        <strong>zsh_config</strong>
       </a>
+      <br />
+      Shell and Zsh configuration files for a portable environment.
+      <br />
+      <sub>Shell · public config</sub>
     </td>
     <td width="50%">
       <a href="https://github.com/Nongfsq/codex-custom-model-picker-repair">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nongfsq&repo=codex-custom-model-picker-repair&theme=transparent&hide_border=true&title_color=4f46e5&text_color=334155&icon_color=4f46e5" alt="codex-custom-model-picker-repair" />
+        <strong>codex-custom-model-picker-repair</strong>
       </a>
+      <br />
+      PowerShell repair tooling for Codex model picker configuration.
+      <br />
+      <sub>PowerShell · public tooling</sub>
     </td>
   </tr>
 </table>
@@ -99,16 +115,11 @@ I use GitHub as a remote cockpit for small durable systems: private products, pe
 
 ## Signal
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=Nongfsq&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&title_color=0f766e&text_color=334155&icon_color=0f766e" alt="GitHub stats" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nongfsq&layout=compact&theme=transparent&hide_border=true&title_color=2563eb&text_color=334155" alt="Top languages" />
-    </td>
-  </tr>
-</table>
+| Public signal | Current focus |
+| --- | --- |
+| Profile pins | Public repositories that are safe to open directly. |
+| Topic search | Owner-facing navigation across active and private work. |
+| Language shelf | Fast filters for TypeScript, Python, Rust, Shell, Lua, and Vue. |
 
 ## Operating Principles
 
