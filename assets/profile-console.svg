@@ -1,6 +1,6 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Nongfsq profile console</title>
-  <desc id="desc">A dark editorial GitHub profile banner with search and repository dashboard motifs.</desc>
+  <title id="title">Kimo / Nongfsq profile banner</title>
+  <desc id="desc">A dark editorial GitHub profile banner for readable tools and focused software systems.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#06111F"/>
@@ -45,9 +45,9 @@
   </g>
 
   <g>
-    <text x="80" y="112" fill="#CCFBF1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">GITHUB COMMAND CENTER</text>
+    <text x="80" y="112" fill="#CCFBF1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">READABLE SOFTWARE SYSTEMS</text>
     <text x="78" y="178" fill="#F8FAFC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-2">Kimo / Nongfsq</text>
-    <text x="82" y="222" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23" font-weight="500">private products, automation tools, readable systems</text>
+    <text x="82" y="222" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23" font-weight="500">tools, development environments, automation workflows</text>
   </g>
 
   <g font-family="Cascadia Mono, Consolas, monospace" font-size="16" font-weight="600">
