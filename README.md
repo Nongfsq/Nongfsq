@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-console.svg" alt="Kimo / Nongfsq profile banner" width="100%" />
+  <img src="./assets/profile-console.svg" alt="Mises quote banner" width="100%" />
 </p>
 
 <div align="center">

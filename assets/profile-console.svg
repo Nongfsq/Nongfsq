@@ -1,6 +1,6 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Kimo / Nongfsq profile banner</title>
-  <desc id="desc">A dark editorial GitHub profile banner for readable tools and focused software systems.</desc>
+  <title id="title">Mises quote banner</title>
+  <desc id="desc">A dark editorial GitHub profile banner with a quote from Ludwig von Mises.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#06111F"/>
@@ -15,9 +15,6 @@
       <stop stop-color="#60A5FA" stop-opacity="0.34"/>
       <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
     </radialGradient>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
-    </filter>
   </defs>
 
   <rect width="1200" height="360" rx="34" fill="url(#bg)"/>
@@ -34,30 +31,15 @@
     <path d="M896 -60V420" stroke="#E5E7EB"/>
   </g>
 
-  <g filter="url(#softShadow)">
-    <rect x="712" y="58" width="372" height="244" rx="26" fill="#07111D" fill-opacity="0.72" stroke="#D1FAE5" stroke-opacity="0.18"/>
-    <rect x="742" y="88" width="238" height="16" rx="8" fill="#E5E7EB" fill-opacity="0.18"/>
-    <rect x="742" y="128" width="282" height="40" rx="14" fill="#0F766E" fill-opacity="0.32" stroke="#5EEAD4" stroke-opacity="0.42"/>
-    <rect x="742" y="188" width="128" height="14" rx="7" fill="#60A5FA" fill-opacity="0.55"/>
-    <rect x="742" y="218" width="250" height="14" rx="7" fill="#E5E7EB" fill-opacity="0.16"/>
-    <rect x="742" y="248" width="198" height="14" rx="7" fill="#E5E7EB" fill-opacity="0.12"/>
-    <circle cx="1038" cy="148" r="18" fill="#F97316" fill-opacity="0.75"/>
-  </g>
-
-  <g>
-    <text x="80" y="112" fill="#CCFBF1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">READABLE SOFTWARE SYSTEMS</text>
-    <text x="78" y="178" fill="#F8FAFC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-2">Kimo / Nongfsq</text>
-    <text x="82" y="222" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23" font-weight="500">tools, development environments, automation workflows</text>
-  </g>
-
-  <g font-family="Cascadia Mono, Consolas, monospace" font-size="16" font-weight="600">
-    <rect x="82" y="260" width="124" height="34" rx="17" fill="#F8FAFC" fill-opacity="0.10" stroke="#F8FAFC" stroke-opacity="0.12"/>
-    <text x="104" y="283" fill="#E2E8F0">TypeScript</text>
-    <rect x="220" y="260" width="94" height="34" rx="17" fill="#F8FAFC" fill-opacity="0.10" stroke="#F8FAFC" stroke-opacity="0.12"/>
-    <text x="242" y="283" fill="#E2E8F0">Python</text>
-    <rect x="328" y="260" width="76" height="34" rx="17" fill="#F8FAFC" fill-opacity="0.10" stroke="#F8FAFC" stroke-opacity="0.12"/>
-    <text x="350" y="283" fill="#E2E8F0">Rust</text>
-    <rect x="418" y="260" width="78" height="34" rx="17" fill="#F8FAFC" fill-opacity="0.10" stroke="#F8FAFC" stroke-opacity="0.12"/>
-    <text x="440" y="283" fill="#E2E8F0">Shell</text>
+  <g text-anchor="middle">
+    <text x="600" y="152" fill="#F8FAFC" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700" letter-spacing="-1">
+      Human action is purposeful behavior.
+    </text>
+    <text x="600" y="214" fill="#CCFBF1" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" letter-spacing="3">
+      LUDWIG VON MISES
+    </text>
+    <text x="600" y="248" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">
+      Human Action
+    </text>
   </g>
 </svg>
