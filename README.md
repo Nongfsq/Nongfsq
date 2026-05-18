@@ -4,6 +4,8 @@
 
 <div align="center">
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=760&lines=Owner+cockpit+for+private+systems;Public+window+into+durable+tools;Searchable+routes+for+active+work)](https://git.io/typing-svg)
+
 [![Active work](https://img.shields.io/badge/Active%20work-search-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/search?q=user%3ANongfsq+topic%3Aactive&type=repositories&s=updated&o=desc)
 [![Omenpin](https://img.shields.io/badge/Omenpin-private%20product-0f766e?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/search?q=user%3ANongfsq+topic%3Aomenpin&type=repositories)
 [![Public repos](https://img.shields.io/badge/Public%20repos-open-2563eb?style=for-the-badge&logo=github)](https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed)
@@ -15,7 +17,7 @@
 
 I use GitHub as a remote cockpit for small durable systems: private products, personal automation, readable development environments, research tooling, and focused public projects.
 
-| Jump | Opens |
+| Launch | Opens |
 | --- | --- |
 | [Latest active repositories](https://github.com/search?q=user%3ANongfsq+topic%3Aactive&type=repositories&s=updated&o=desc) | Everything tagged `active`, sorted by recent movement. |
 | [Omenpin workspace](https://github.com/search?q=user%3ANongfsq+topic%3Aomenpin&type=repositories) | Standalone private product work. |
@@ -35,6 +37,16 @@ I use GitHub as a remote cockpit for small durable systems: private products, pe
 | **Codex workflows** | [Open tooling](https://github.com/search?q=user%3ANongfsq+topic%3Apersonal-tooling+codex&type=repositories) | Python · Rust · PowerShell |
 | **Readable environment** | [Open dev environment](https://github.com/search?q=user%3ANongfsq+topic%3Adev-environment&type=repositories) | Lua · Shell · Python |
 | **Research systems** | [Open research repos](https://github.com/search?q=user%3ANongfsq+topic%3Aresearch-writing&type=repositories) | Python · JavaScript |
+
+## Owner Cockpit
+
+| Need | Route |
+| --- | --- |
+| Recent private/public movement | [Search `topic:active`](https://github.com/search?q=user%3ANongfsq+topic%3Aactive&type=repositories&s=updated&o=desc) |
+| Private product lane | [Search `topic:omenpin`](https://github.com/search?q=user%3ANongfsq+topic%3Aomenpin&type=repositories&s=updated&o=desc) |
+| Work paused for later | [Search `topic:paused`](https://github.com/search?q=user%3ANongfsq+topic%3Apaused&type=repositories&s=updated&o=desc) |
+| Archive candidates | [Search `topic:archive-candidate`](https://github.com/search?q=user%3ANongfsq+topic%3Aarchive-candidate&type=repositories&s=updated&o=desc) |
+| All repositories by recent push | [Open repository index](https://github.com/Nongfsq?tab=repositories&q=&type=&language=&sort=pushed) |
 
 ## Public Project Cards
 
