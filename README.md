@@ -10,17 +10,20 @@
 
 ## Systems I Build
 
-I design and ship private production systems as an independent builder: product strategy, interface architecture, Rust API platforms, database governance, cache/search layers, media pipelines, DevOps observability, and AI-assisted delivery are treated as one operating system.
+I design and ship private production systems as an independent builder: product strategy, interface architecture, geospatial data planes, Rust API platforms, database governance, cache/search layers, security boundaries, media pipelines, DevOps observability, and AI-assisted delivery are treated as one operating system.
 
-The public repositories are deliberately narrow windows into that practice. The main work lives in private integrated systems: multi-surface products with public UX, admin operations, typed contracts, deployment discipline, and internal tooling that lets a solo operation behave like a serious engineering organization.
+The public repositories are deliberately narrow windows into that practice. The main work lives in private integrated systems: multi-surface products with public UX, dedicated admin operations, typed contracts, role-governed security, privacy-aware analytics, deployment discipline, and internal tooling that lets a solo operation behave like a serious engineering organization.
 
 | Area | What it includes |
 | --- | --- |
-| **Private product systems** | Full-stack product architecture, public and admin surfaces, auth/RBAC, moderation, reputation, commerce, media, analytics, and operational workflows. |
-| **Backend and data platforms** | Rust/Axum APIs, PostgreSQL schemas, SQLx migrations, OpenAPI/Hurl contracts, GraphQL architecture planning, search, cache-aware data flows, and large-data processing. |
-| **Frontend architecture** | Next.js, React, TypeScript, SSR/SEO, interactive maps, WebGL-capable UI, premium motion systems, design systems, and typed client data access. |
-| **DevOps and observability** | Vercel, Railway, Docker, GitHub Actions, Sentry, PostHog, structured logs, deployment runbooks, and one-command local operations. |
-| **Media and research tooling** | Upload/storage pipelines, image/video compression, YouTube/content processing workflows, dictionary tools, translation, EPUB/archive processing, and structured research systems. |
+| **Private product systems** | Full-stack product architecture, public UX, dedicated admin surfaces, canonical archives, profile/social systems, reputation/honors, commerce, media, moderation, and operational workflows. |
+| **Backend and data platforms** | Rust/Axum APIs, PostgreSQL schema design, SQLx migrations, OpenAPI/Hurl contracts, GraphQL Experience API planning, read models, search vectors, audit ledgers, and cache-aware data flows. |
+| **Geospatial and cache architecture** | Map data planes, viewport/bbox/zoom request design, approximate-location privacy, clustering, Redis-style cache keys, stale-while-revalidate, ETags, and request coalescing. |
+| **Frontend architecture** | Next.js, React, TypeScript, SSR/RSC, SEO metadata, Mapbox/WebGL surfaces, capability-based motion runtime, design systems, typed data access, and accessibility. |
+| **Security and governance** | Auth/RBAC, role matrices, WebAuthn/passkeys, step-up verification, separated admin surfaces, high-privilege guardrails, non-enumerating policy, and audit evidence. |
+| **DevOps and observability** | Vercel, Railway, Docker, manual CI stage gates, Sentry, privacy-safe PostHog taxonomy, NDJSON log schemas, request IDs, diagnostic CLIs, and one-command local operations. |
+| **Testing and quality systems** | Vitest/RTL, Playwright POMs, Rust DB-backed tests, Hurl contract suites, OpenAPI generated types, encoding audits, Android mobile QA, and AI-readable failure evidence. |
+| **Media and research tooling** | Upload/storage pipelines, S3/R2 object boundaries, image/video compression, YouTube/content processing workflows, dictionary tools, translation, EPUB/archive processing, and structured research systems. |
 | **AI and Vibe Coding systems** | Codex workflows, PM -> architecture -> execution plans, Vibe Coding Skills, agent instructions, repo automation, and multi-session handoff systems. |
 | **Developer environment** | Neovim/LazyVim, shell configuration, terminal migration, Rime/input-method work, and recoverable workstation setup. |
 | **Public artifacts** | Small utilities, hobby projects, monitoring tools, and configuration repos that are safe to publish. |
@@ -29,10 +32,13 @@ The public repositories are deliberately narrow windows into that practice. The 
 
 | Track | Focus | Stack |
 | --- | --- | --- |
-| **Private flagship system** | A large modular product platform with public web, admin operations, typed backend contracts, database governance, media workflows, observability, and deployment discipline. | Next.js · React · TypeScript · Rust · PostgreSQL |
-| **Platform architecture** | Design frontend/backend boundaries, API contracts, auth/RBAC, data models, caching strategy, admin governance, and production operations. | Axum · SQLx · OpenAPI · Hurl · Docker |
-| **AI-assisted engineering** | Convert product intent into PM plans, architecture plans, implementation tasks, agent instructions, and reusable Vibe Coding Skills. | Codex · Markdown · PowerShell · GitHub CLI |
-| **Data and media systems** | Work on search, cache-aware flows, GraphQL architecture, archive processing, media storage, image/video compression, and YouTube/content processing pipelines. | Python · Rust · TypeScript · FFmpeg |
+| **Private flagship system** | A large modular product platform with geospatial discovery, canonical archives, profile/social systems, admin operations, reputation governance, hosted commerce, media workflows, and deployment discipline. | Next.js · React · TypeScript · Rust · PostgreSQL |
+| **Experience and data APIs** | Design frontend/backend boundaries, GraphQL Experience API direction, OpenAPI/Hurl contracts, typed DTOs, read models, service/query layers, and field/object permission rules. | Axum · SQLx · OpenAPI · Hurl · GraphQL |
+| **Map data plane** | Model viewport-scoped requests, bbox/zoom buckets, approximate coordinates, cluster responses, cache keys, retry/degraded states, and high-frequency map cost control. | Mapbox · PostgreSQL · Redis patterns · TanStack Query |
+| **Security and governance** | Build auth/RBAC, admin-surface separation, WebAuthn/passkeys, step-up verification, role-scope visibility, high-privilege guardrails, non-enumeration, and audit trails. | Rust · WebAuthn · JWT · SQLx |
+| **Observability and QA** | Maintain structured logs, request correlation, diagnostic reports, privacy-safe analytics, contract tests, mobile evidence, and AI-readable failure loops. | Sentry · PostHog · NDJSON · Playwright · Hurl |
+| **AI-assisted engineering** | Convert product intent into PM plans, architecture plans, implementation tasks, agent instructions, multi-session worktrees, and reusable Vibe Coding Skills. | Codex · Markdown · PowerShell · GitHub CLI |
+| **Data and media systems** | Work on search, indexing, cache-aware flows, archive processing, media storage, image/video compression, and YouTube/content processing pipelines. | Python · Rust · TypeScript · FFmpeg |
 | **Research and language tools** | Build dictionary, translation, EPUB, note, and archive workflows around structured text and repeatable processing. | Python · JavaScript · TypeScript |
 | **Public utilities** | Publish safe small tools: editor configs, monitoring utilities, repair scripts, and development environment experiments. | Lua · Shell · Python · PowerShell |
 
@@ -99,6 +105,8 @@ These are the public, lightweight pieces. The main product systems remain privat
   <img alt="SQLx" src="https://img.shields.io/badge/SQLx-111827?style=flat-square&logo=postgresql">
   <img alt="OpenAPI" src="https://img.shields.io/badge/OpenAPI-111827?style=flat-square&logo=openapiinitiative">
   <img alt="GraphQL" src="https://img.shields.io/badge/GraphQL-111827?style=flat-square&logo=graphql">
+  <img alt="Redis" src="https://img.shields.io/badge/Redis-111827?style=flat-square&logo=redis">
+  <img alt="WebAuthn" src="https://img.shields.io/badge/WebAuthn-111827?style=flat-square">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker">
   <img alt="Vercel" src="https://img.shields.io/badge/Vercel-111827?style=flat-square&logo=vercel">
   <img alt="Railway" src="https://img.shields.io/badge/Railway-111827?style=flat-square&logo=railway">
@@ -107,6 +115,9 @@ These are the public, lightweight pieces. The main product systems remain privat
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-111827?style=flat-square&logo=githubactions">
   <img alt="Sentry" src="https://img.shields.io/badge/Sentry-111827?style=flat-square&logo=sentry">
   <img alt="PostHog" src="https://img.shields.io/badge/PostHog-111827?style=flat-square&logo=posthog">
+  <img alt="Playwright" src="https://img.shields.io/badge/Playwright-111827?style=flat-square&logo=playwright">
+  <img alt="Vitest" src="https://img.shields.io/badge/Vitest-111827?style=flat-square&logo=vitest">
+  <img alt="Hurl" src="https://img.shields.io/badge/Hurl-111827?style=flat-square">
   <img alt="FFmpeg" src="https://img.shields.io/badge/FFmpeg-111827?style=flat-square&logo=ffmpeg">
   <img alt="Mapbox" src="https://img.shields.io/badge/Mapbox-111827?style=flat-square&logo=mapbox">
   <img alt="Bun" src="https://img.shields.io/badge/Bun-111827?style=flat-square&logo=bun">
@@ -120,13 +131,15 @@ These are the public, lightweight pieces. The main product systems remain privat
 
 | Layer | Tools and domains |
 | --- | --- |
-| **Product and systems architecture** | Independent product ownership, domain modeling, public/admin surfaces, permissions, governance, SEO, and operational workflows. |
+| **Product and systems architecture** | Independent product ownership, domain modeling, canonical content objects, public/admin surfaces, permissions, governance, SEO, commerce boundaries, and operational workflows. |
 | **Frontend platform** | Next.js, React, TypeScript, SSR/RSC, Tailwind, shadcn/ui, Framer Motion, Mapbox/WebGL, TanStack Query, Zustand, accessibility, and premium interaction design. |
-| **Backend platform** | Rust, Axum, Tokio, SQLx, PostgreSQL, migrations, auth/RBAC, OpenAPI, Hurl, GraphQL architecture planning, service/query layering, and typed contracts. |
-| **Data and scale** | Cache-aware flows, search, indexing, audit/reputation ledgers, large-data processing, structured archives, dictionary data, and media metadata pipelines. |
-| **DevOps and observability** | Vercel, Railway, Docker, GitHub Actions, Sentry, PostHog, structured NDJSON logs, request tracing, deployment checks, and Windows-native local operations. |
-| **Media and automation** | Python, Rust, PowerShell, FFmpeg-style media processing, image/video compression, YouTube/content workflows, storage pipelines, and GitHub CLI automation. |
-| **AI engineering** | Codex workflows, PM/PLAN/TASK documents, Vibe Coding Skills, agent rules, multi-session collaboration, instruction systems, and repeatable task handoff. |
+| **Backend platform** | Rust, Axum, Tokio, SQLx, PostgreSQL, migrations, auth/RBAC, OpenAPI, Hurl, GraphQL Experience API planning, service/query layering, and typed contracts. |
+| **Data and scale** | Map Data Plane, cache keys, request coalescing, ETags, search vectors, indexing, audit/reputation ledgers, large-data processing, structured archives, dictionary data, and media metadata pipelines. |
+| **Security and governance** | WebAuthn/passkeys, elevated verification, admin-surface separation, role-scope visibility, high-privilege guardrails, non-enumerating responses, and audit evidence. |
+| **DevOps and observability** | Vercel, Railway, Docker, GitHub Actions, Sentry, PostHog, structured NDJSON logs, request tracing, diagnostic CLIs, deployment checks, and Windows-native local operations. |
+| **Quality and verification** | Vitest/RTL, Playwright, Rust integration tests, Hurl contracts, OpenAPI type generation, Android mobile QA, privacy guardrails, and AI-readable diagnostic reports. |
+| **Media and automation** | Python, Rust, PowerShell, FFmpeg-style media processing, image/video compression, YouTube/content workflows, object storage pipelines, and GitHub CLI automation. |
+| **AI engineering** | Codex workflows, PM/PLAN/TASK documents, Vibe Coding Skills, agent rules, multi-session collaboration, instruction systems, branch/worktree protocols, and repeatable task handoff. |
 | **Developer environment** | Neovim, LazyVim, Lua, Zsh, shell tooling, terminal migration, Rime/input-method work, and recoverable workstation setup. |
 
 ## Operating Standard
