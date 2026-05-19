@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/mises-calculation.svg" alt="Mises economic calculation quote banner" width="100%" />
-</p>
-
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=840&lines=Readable+tools+and+focused+software+systems;Development+environments+that+stay+understandable;Automation+and+research+workflows+that+compound)](https://git.io/typing-svg)
@@ -129,3 +125,8 @@ These links use GitHub search and topics as a lightweight project map. Public vi
 `readable tools` · `development environments` · `research workflows`
 
 </div>
+
+<p align="center">
+  <sub><em>“Without economic calculation there can be no economy.”</em></sub><br />
+  <sub>Ludwig von Mises, <a href="https://mises.org/book/export/html/63983">Economic Calculation in the Socialist Commonwealth</a></sub>
+</p>
