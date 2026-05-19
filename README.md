@@ -1,8 +1,11 @@
 <div align="center">
 
-<img src="./assets/profile-architecture-poster.png" alt="Nongfsq systems architecture poster: product strategy, typed platforms, data planes, security boundaries, observability, and AI-assisted delivery." width="100%" />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=960&lines=Independent+product+systems+architect;Typed+platforms%2C+data+planes%2C+security+boundaries;AI-assisted+delivery%2C+production-grade+verification)](https://git.io/typing-svg)
 
-<a href="#systems-i-build">Systems</a> / <a href="#current-work">Current Work</a> / <a href="#public-projects">Public Projects</a> / <a href="#technical-focus">Technical Focus</a> / <a href="https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed">Repositories</a>
+[![Systems practice](https://img.shields.io/badge/Systems%20practice-product%20%7C%20platform%20%7C%20ops-111827?style=for-the-badge&logo=github&logoColor=white)](#systems-i-build)
+[![Architecture](https://img.shields.io/badge/Architecture-data%20%7C%20API%20%7C%20security-0f766e?style=for-the-badge&logo=graphql&logoColor=white)](#current-work)
+[![Engineering stack](https://img.shields.io/badge/Engineering%20stack-full--stack%20%7C%20DevOps%20%7C%20QA-2563eb?style=for-the-badge&logo=typescript&logoColor=white)](#technical-focus)
+[![Public repositories](https://img.shields.io/badge/Public%20repositories-selected%20artifacts-7c2d12?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed)
 
 </div>
 
