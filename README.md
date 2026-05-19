@@ -1,33 +1,31 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=960&lines=Private+production+systems+with+public+proof;Map+data+planes%2C+typed+APIs%2C+security+boundaries;AI-assisted+delivery+with+engineering-grade+verification)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=960&lines=Independent+product+systems+architect;Typed+platforms%2C+data+planes%2C+security+boundaries;AI-assisted+delivery%2C+production-grade+verification)](https://git.io/typing-svg)
 
-[![Private systems](https://img.shields.io/badge/Private%20systems-product%20%7C%20data%20%7C%20ops-111827?style=for-the-badge&logo=github&logoColor=white)](#systems-i-build)
-[![Architecture map](https://img.shields.io/badge/Architecture-data%20plane%20%7C%20API%20%7C%20security-0f766e?style=for-the-badge&logo=graphql&logoColor=white)](#current-work)
-[![Technical focus](https://img.shields.io/badge/Technical%20focus-full--stack%20%7C%20observability%20%7C%20QA-2563eb?style=for-the-badge&logo=typescript&logoColor=white)](#technical-focus)
-[![Public artifacts](https://img.shields.io/badge/Public%20artifacts-open%20repositories-7c2d12?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed)
+[![Systems practice](https://img.shields.io/badge/Systems%20practice-product%20%7C%20platform%20%7C%20ops-111827?style=for-the-badge&logo=github&logoColor=white)](#systems-i-build)
+[![Architecture](https://img.shields.io/badge/Architecture-data%20%7C%20API%20%7C%20security-0f766e?style=for-the-badge&logo=graphql&logoColor=white)](#current-work)
+[![Engineering stack](https://img.shields.io/badge/Engineering%20stack-full--stack%20%7C%20DevOps%20%7C%20QA-2563eb?style=for-the-badge&logo=typescript&logoColor=white)](#technical-focus)
+[![Public repositories](https://img.shields.io/badge/Public%20repositories-selected%20artifacts-7c2d12?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed)
 
 </div>
 
 ## Systems I Build
 
-I design and ship private production systems as an independent builder: product strategy, interface architecture, geospatial data planes, Rust API platforms, database governance, cache/search layers, security boundaries, media pipelines, DevOps observability, and AI-assisted delivery are treated as one operating system.
+I build private production systems end to end: product strategy, interface architecture, geospatial data planes, Rust API platforms, database governance, cache/search layers, security boundaries, media pipelines, DevOps observability, and AI-assisted delivery as one operating system.
 
-The public repositories are deliberately narrow windows into that practice. The main work lives in private integrated systems: multi-surface products with public UX, dedicated admin operations, typed contracts, role-governed security, privacy-aware analytics, deployment discipline, and internal tooling that lets a solo operation behave like a serious engineering organization.
+The public repositories are selected artifacts from that practice. The deeper work lives in private integrated systems: multi-surface products with public UX, dedicated admin operations, typed contracts, role-governed security, privacy-aware analytics, deployment discipline, and internal tooling that lets a solo operation behave like a serious engineering organization.
 
 | Area | What it includes |
 | --- | --- |
-| **Private product systems** | Full-stack product architecture, public UX, dedicated admin surfaces, canonical archives, profile/social systems, reputation/honors, commerce, media, moderation, and operational workflows. |
-| **Backend and data platforms** | Rust/Axum APIs, PostgreSQL schema design, SQLx migrations, OpenAPI/Hurl contracts, GraphQL Experience API planning, read models, search vectors, audit ledgers, and cache-aware data flows. |
-| **Geospatial and cache architecture** | Map data planes, viewport/bbox/zoom request design, approximate-location privacy, clustering, Redis-style cache keys, stale-while-revalidate, ETags, and request coalescing. |
-| **Frontend architecture** | Next.js, React, TypeScript, SSR/RSC, SEO metadata, Mapbox/WebGL surfaces, capability-based motion runtime, design systems, typed data access, and accessibility. |
+| **Private product systems** | Public UX, admin operations, canonical archives, profile/social layers, reputation, commerce, media, moderation, and workflow design. |
+| **Data and API platforms** | Rust/Axum services, PostgreSQL schemas, SQLx migrations, OpenAPI/Hurl contracts, GraphQL Experience API planning, read models, search vectors, and audit ledgers. |
+| **Map and cache architecture** | Viewport/bbox/zoom request design, approximate-location privacy, clustering, Redis-style cache keys, stale-while-revalidate, ETags, and request coalescing. |
+| **Frontend architecture** | Next.js, React, TypeScript, SSR/RSC, SEO metadata, Mapbox/WebGL, capability-based motion runtime, design systems, typed data access, and accessibility. |
 | **Security and governance** | Auth/RBAC, role matrices, WebAuthn/passkeys, step-up verification, separated admin surfaces, high-privilege guardrails, non-enumerating policy, and audit evidence. |
-| **DevOps and observability** | Vercel, Railway, Docker, manual CI stage gates, Sentry, privacy-safe PostHog taxonomy, NDJSON log schemas, request IDs, diagnostic CLIs, and one-command local operations. |
-| **Testing and quality systems** | Vitest/RTL, Playwright POMs, Rust DB-backed tests, Hurl contract suites, OpenAPI generated types, encoding audits, Android mobile QA, and AI-readable failure evidence. |
-| **Media and research tooling** | Upload/storage pipelines, S3/R2 object boundaries, image/video compression, YouTube/content processing workflows, dictionary tools, translation, EPUB/archive processing, and structured research systems. |
-| **AI and Vibe Coding systems** | Codex workflows, PM -> architecture -> execution plans, Vibe Coding Skills, agent instructions, repo automation, and multi-session handoff systems. |
-| **Developer environment** | Neovim/LazyVim, shell configuration, terminal migration, Rime/input-method work, and recoverable workstation setup. |
-| **Public artifacts** | Small utilities, hobby projects, monitoring tools, and configuration repos that are safe to publish. |
+| **Operations and verification** | Vercel, Railway, Docker, manual CI gates, Sentry, privacy-safe PostHog, NDJSON logs, diagnostic CLIs, Vitest, Playwright, Rust tests, Hurl, and mobile QA. |
+| **Media and research systems** | Object storage boundaries, image/video compression, YouTube/content workflows, dictionary tools, translation, EPUB/archive processing, and structured research systems. |
+| **AI and Vibe Coding systems** | PM -> architecture -> execution plans, Codex workflows, Vibe Coding Skills, agent instructions, repo automation, and multi-session handoff systems. |
+| **Public artifacts** | Small utilities, development environments, monitoring tools, repair scripts, and configuration repos that are safe to publish. |
 
 ## Current Work
 
@@ -45,7 +43,7 @@ The public repositories are deliberately narrow windows into that practice. The 
 
 ## Public Projects
 
-These are the public, lightweight pieces. The main product systems remain private by design.
+Selected public artifacts from a broader private engineering practice.
 
 <table>
   <tr>
@@ -147,7 +145,7 @@ These are the public, lightweight pieces. The main product systems remain privat
 
 | Product | Architecture | Delivery |
 | --- | --- | --- |
-| Independent product ownership, not feature assembly. | Typed boundaries, explicit data models, and observable systems. | AI-assisted execution with PM-grade planning and engineering-grade verification. |
+| Own the product, domain model, public/admin split, and operational rules as one system. | Typed contracts, auditable data flows, permission boundaries, and observable failure evidence. | AI-assisted execution backed by PM plans, tests, diagnostics, and durable handoff artifacts. |
 
 <div align="center">
 
