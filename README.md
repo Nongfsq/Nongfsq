@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-console.svg" alt="Nongfsq profile console: independent product systems architect working across typed platforms, data planes, security boundaries, observability, and AI-assisted delivery." width="100%" />
+<img src="./assets/profile-architecture-poster.png" alt="Nongfsq systems architecture poster: product strategy, typed platforms, data planes, security boundaries, observability, and AI-assisted delivery." width="100%" />
 
 <a href="#systems-i-build">Systems</a> / <a href="#current-work">Current Work</a> / <a href="#public-projects">Public Projects</a> / <a href="#technical-focus">Technical Focus</a> / <a href="https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed">Repositories</a>
 
