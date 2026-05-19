@@ -120,6 +120,6 @@ These are the public, lightweight pieces. The main product systems remain privat
 </div>
 
 <p align="center">
-  <sub><em>“Without economic calculation there can be no economy.”</em></sub><br />
-  <sub>Ludwig von Mises, <a href="https://mises.org/book/export/html/63983">Economic Calculation in the Socialist Commonwealth</a></sub>
+  <sub><em>“Economics has always maintained that wealth emerges solely from production and services, and never originates from distribution.”</em></sub><br />
+  <sub>Frank X.</sub>
 </p>
