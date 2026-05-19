@@ -1,10 +1,11 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=900&lines=Independent+full-stack+product+systems;Frontend%2C+backend%2C+data%2C+and+DevOps+architecture;AI-assisted+engineering+and+Vibe+Coding+workflows)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=960&lines=Private+production+systems+with+public+proof;Map+data+planes%2C+typed+APIs%2C+security+boundaries;AI-assisted+delivery+with+engineering-grade+verification)](https://git.io/typing-svg)
 
-[![Public projects](https://img.shields.io/badge/Public%20projects-open-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed)
-[![Active work](https://img.shields.io/badge/Active%20work-search-0f766e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/search?q=user%3ANongfsq+topic%3Aactive&type=repositories&s=updated&o=desc)
-[![Technical focus](https://img.shields.io/badge/Technical%20focus-Full--stack%20%7C%20Data%20%7C%20DevOps-2563eb?style=for-the-badge&logo=typescript&logoColor=white)](#technical-focus)
+[![Private systems](https://img.shields.io/badge/Private%20systems-product%20%7C%20data%20%7C%20ops-111827?style=for-the-badge&logo=github&logoColor=white)](#systems-i-build)
+[![Architecture map](https://img.shields.io/badge/Architecture-data%20plane%20%7C%20API%20%7C%20security-0f766e?style=for-the-badge&logo=graphql&logoColor=white)](#current-work)
+[![Technical focus](https://img.shields.io/badge/Technical%20focus-full--stack%20%7C%20observability%20%7C%20QA-2563eb?style=for-the-badge&logo=typescript&logoColor=white)](#technical-focus)
+[![Public artifacts](https://img.shields.io/badge/Public%20artifacts-open%20repositories-7c2d12?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed)
 
 </div>
 
