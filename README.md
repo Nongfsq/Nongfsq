@@ -4,7 +4,7 @@
 
 [![Public projects](https://img.shields.io/badge/Public%20projects-open-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed)
 [![Active work](https://img.shields.io/badge/Active%20work-search-0f766e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/search?q=user%3ANongfsq+topic%3Aactive&type=repositories&s=updated&o=desc)
-[![Technical focus](https://img.shields.io/badge/Technical%20focus-TypeScript%20%7C%20Python%20%7C%20Rust-2563eb?style=for-the-badge&logo=typescript&logoColor=white)](#technical-focus)
+[![Technical focus](https://img.shields.io/badge/Technical%20focus-Full--stack%20%7C%20Data%20%7C%20DevOps-2563eb?style=for-the-badge&logo=typescript&logoColor=white)](#technical-focus)
 
 </div>
 
@@ -87,23 +87,47 @@ These are the public, lightweight pieces. The main product systems remain privat
 
 <p>
   <a href="https://github.com/search?q=user%3ANongfsq+language%3ATypeScript&type=repositories"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript"></a>
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs">
+  <img alt="React" src="https://img.shields.io/badge/React-111827?style=flat-square&logo=react">
+  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-111827?style=flat-square&logo=tailwindcss">
+  <img alt="Framer Motion" src="https://img.shields.io/badge/Framer_Motion-111827?style=flat-square&logo=framer">
+  <img alt="TanStack Query" src="https://img.shields.io/badge/TanStack_Query-111827?style=flat-square&logo=reactquery">
   <a href="https://github.com/search?q=user%3ANongfsq+language%3APython&type=repositories"><img alt="Python" src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python"></a>
   <a href="https://github.com/search?q=user%3ANongfsq+language%3ARust&type=repositories"><img alt="Rust" src="https://img.shields.io/badge/Rust-111827?style=flat-square&logo=rust"></a>
+  <img alt="Axum" src="https://img.shields.io/badge/Axum-111827?style=flat-square&logo=rust">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql">
+  <img alt="SQLx" src="https://img.shields.io/badge/SQLx-111827?style=flat-square&logo=postgresql">
+  <img alt="OpenAPI" src="https://img.shields.io/badge/OpenAPI-111827?style=flat-square&logo=openapiinitiative">
+  <img alt="GraphQL" src="https://img.shields.io/badge/GraphQL-111827?style=flat-square&logo=graphql">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker">
+  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-111827?style=flat-square&logo=vercel">
+  <img alt="Railway" src="https://img.shields.io/badge/Railway-111827?style=flat-square&logo=railway">
+  <img alt="Cloudflare R2" src="https://img.shields.io/badge/Cloudflare_R2-111827?style=flat-square&logo=cloudflare">
+  <img alt="Shopify" src="https://img.shields.io/badge/Shopify-111827?style=flat-square&logo=shopify">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-111827?style=flat-square&logo=githubactions">
+  <img alt="Sentry" src="https://img.shields.io/badge/Sentry-111827?style=flat-square&logo=sentry">
+  <img alt="PostHog" src="https://img.shields.io/badge/PostHog-111827?style=flat-square&logo=posthog">
+  <img alt="FFmpeg" src="https://img.shields.io/badge/FFmpeg-111827?style=flat-square&logo=ffmpeg">
+  <img alt="Mapbox" src="https://img.shields.io/badge/Mapbox-111827?style=flat-square&logo=mapbox">
+  <img alt="Bun" src="https://img.shields.io/badge/Bun-111827?style=flat-square&logo=bun">
   <a href="https://github.com/search?q=user%3ANongfsq+language%3AShell&type=repositories"><img alt="Shell" src="https://img.shields.io/badge/Shell-111827?style=flat-square&logo=gnubash"></a>
+  <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-111827?style=flat-square&logo=powershell">
   <a href="https://github.com/search?q=user%3ANongfsq+language%3ALua&type=repositories"><img alt="Lua" src="https://img.shields.io/badge/Lua-111827?style=flat-square&logo=lua"></a>
   <a href="https://github.com/search?q=user%3ANongfsq+language%3AVue&type=repositories"><img alt="Vue" src="https://img.shields.io/badge/Vue-111827?style=flat-square&logo=vuedotjs"></a>
   <a href="https://github.com/search?q=user%3ANongfsq+language%3AC%2B%2B&type=repositories"><img alt="C++" src="https://img.shields.io/badge/C%2B%2B-111827?style=flat-square&logo=cplusplus"></a>
+  <img alt="Neovim" src="https://img.shields.io/badge/Neovim-111827?style=flat-square&logo=neovim">
 </p>
 
 | Layer | Tools and domains |
 | --- | --- |
-| **Product architecture** | Independent product ownership, public/admin surfaces, feature planning, permissions, governance, SEO, and operational workflows. |
-| **Frontend systems** | Next.js, React, TypeScript, SSR, SEO, Tailwind, shadcn/ui, Framer Motion, Mapbox/WebGL, TanStack Query, Zustand. |
-| **Backend and data** | Rust, Axum, Tokio, PostgreSQL, SQLx, migrations, OpenAPI, Hurl, GraphQL architecture, search, caching, authorization, audit/reputation ledgers. |
-| **DevOps and observability** | Vercel, Railway, Docker, GitHub Actions, Sentry, PostHog, structured NDJSON logs, deployment checks, Windows-native local operations. |
-| **Media and automation** | Python, Rust, PowerShell, FFmpeg-style media processing, video compression, YouTube/content workflows, storage pipelines, GitHub CLI automation. |
-| **AI engineering** | Codex workflows, PM/PLAN/TASK documents, Vibe Coding Skills, agent rules, multi-session collaboration, repeatable task handoff. |
-| **Developer environment** | Neovim, LazyVim, Zsh, shell tooling, terminal migration, Rime/input-method work, recoverable workstation setup. |
+| **Product and systems architecture** | Independent product ownership, domain modeling, public/admin surfaces, permissions, governance, SEO, and operational workflows. |
+| **Frontend platform** | Next.js, React, TypeScript, SSR/RSC, Tailwind, shadcn/ui, Framer Motion, Mapbox/WebGL, TanStack Query, Zustand, accessibility, and premium interaction design. |
+| **Backend platform** | Rust, Axum, Tokio, SQLx, PostgreSQL, migrations, auth/RBAC, OpenAPI, Hurl, GraphQL architecture planning, service/query layering, and typed contracts. |
+| **Data and scale** | Cache-aware flows, search, indexing, audit/reputation ledgers, large-data processing, structured archives, dictionary data, and media metadata pipelines. |
+| **DevOps and observability** | Vercel, Railway, Docker, GitHub Actions, Sentry, PostHog, structured NDJSON logs, request tracing, deployment checks, and Windows-native local operations. |
+| **Media and automation** | Python, Rust, PowerShell, FFmpeg-style media processing, image/video compression, YouTube/content workflows, storage pipelines, and GitHub CLI automation. |
+| **AI engineering** | Codex workflows, PM/PLAN/TASK documents, Vibe Coding Skills, agent rules, multi-session collaboration, instruction systems, and repeatable task handoff. |
+| **Developer environment** | Neovim, LazyVim, Lua, Zsh, shell tooling, terminal migration, Rime/input-method work, and recoverable workstation setup. |
 
 ## Operating Standard
 
