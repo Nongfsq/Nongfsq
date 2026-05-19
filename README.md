@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/mises-quote.svg" alt="Mises quote banner" width="100%" />
+  <img src="./assets/mises-socialism.svg" alt="Mises Socialism quote banner" width="100%" />
 </p>
 
 <div align="center">
