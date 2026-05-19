@@ -105,20 +105,11 @@ These are the public, lightweight pieces. The main product systems remain privat
 | **AI engineering** | Codex workflows, PM/PLAN/TASK documents, Vibe Coding Skills, agent rules, multi-session collaboration, repeatable task handoff. |
 | **Developer environment** | Neovim, LazyVim, Zsh, shell tooling, terminal migration, Rime/input-method work, recoverable workstation setup. |
 
-## Working Principles
+## Operating Standard
 
-- Build tools that can be reopened and understood months later.
-- Prefer readable configuration over clever configuration.
-- Treat private product code as the main engineering surface and public repos as selected artifacts.
-- Keep public projects useful and private work appropriately private.
-- Turn repeated manual work into durable automation.
-- Treat the development environment as part of the software system.
-
-<div align="center">
-
-`readable tools` · `development environments` · `research workflows`
-
-</div>
+| Product | Architecture | Delivery |
+| --- | --- | --- |
+| Independent product ownership, not feature assembly. | Typed boundaries, explicit data models, and observable systems. | AI-assisted execution with PM-grade planning and engineering-grade verification. |
 
 <p align="center">
   <sub><em>“Without economic calculation there can be no economy.”</em></sub><br />
