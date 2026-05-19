@@ -111,6 +111,14 @@ These are the public, lightweight pieces. The main product systems remain privat
 | --- | --- | --- |
 | Independent product ownership, not feature assembly. | Typed boundaries, explicit data models, and observable systems. | AI-assisted execution with PM-grade planning and engineering-grade verification. |
 
+<div align="center">
+
+`readable systems` · `operable environments` · `research-grade workflows`
+
+<sub>Product architecture, typed platforms, DevOps observability, media/data pipelines, and AI-assisted execution.</sub>
+
+</div>
+
 <p align="center">
   <sub><em>“Without economic calculation there can be no economy.”</em></sub><br />
   <sub>Ludwig von Mises, <a href="https://mises.org/book/export/html/63983">Economic Calculation in the Socialist Commonwealth</a></sub>
