@@ -5,7 +5,6 @@
 [![Public projects](https://img.shields.io/badge/Public%20projects-open-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed)
 [![Active work](https://img.shields.io/badge/Active%20work-search-0f766e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/search?q=user%3ANongfsq+topic%3Aactive&type=repositories&s=updated&o=desc)
 [![Technical focus](https://img.shields.io/badge/Technical%20focus-TypeScript%20%7C%20Python%20%7C%20Rust-2563eb?style=for-the-badge&logo=typescript&logoColor=white)](#technical-focus)
-[![Repository map](https://img.shields.io/badge/Repository%20map-topics-7c2d12?style=for-the-badge&logo=github)](#repository-navigation)
 
 </div>
 
@@ -83,19 +82,6 @@ These are the public, lightweight pieces. The main product systems remain privat
     </td>
   </tr>
 </table>
-
-## Repository Navigation
-
-These links use GitHub search and topics as a lightweight project map. Public visitors see public repositories; signed-in access may show more depending on permissions.
-
-| Route | Opens |
-| --- | --- |
-| [Recently active work](https://github.com/search?q=user%3ANongfsq+topic%3Aactive&type=repositories&s=updated&o=desc) | Repositories tagged as active, sorted by recent movement. |
-| [Product systems](https://github.com/search?q=user%3ANongfsq+topic%3Aprivate-product&type=repositories&s=updated&o=desc) | Owner-visible private product and platform work. |
-| [Applications](https://github.com/search?q=user%3ANongfsq+topic%3Aapps&type=repositories&s=updated&o=desc) | Public websites, monitors, dictionary work, hobby utilities, and smaller application experiments. |
-| [Developer environment](https://github.com/search?q=user%3ANongfsq+topic%3Adev-environment&type=repositories&s=updated&o=desc) | Editor, shell, terminal, and input-method repositories. |
-| [Automation tooling](https://github.com/search?q=user%3ANongfsq+topic%3Apersonal-tooling&type=repositories&s=updated&o=desc) | Codex workflows, Vibe Coding Skills, repair tools, bridges, and local automation. |
-| [Research and writing](https://github.com/search?q=user%3ANongfsq+topic%3Aresearch-writing&type=repositories&s=updated&o=desc) | Archive, EPUB, translation, and structured research tools. |
 
 ## Technical Focus
 
