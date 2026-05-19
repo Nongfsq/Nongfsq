@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=840&lines=Readable+tools+and+focused+software+systems;Development+environments+that+stay+understandable;Automation+and+research+workflows+that+compound)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=900&lines=Independent+full-stack+product+systems;Frontend%2C+backend%2C+data%2C+and+DevOps+architecture;AI-assisted+engineering+and+Vibe+Coding+workflows)](https://git.io/typing-svg)
 
 [![Public projects](https://img.shields.io/badge/Public%20projects-open-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed)
 [![Active work](https://img.shields.io/badge/Active%20work-search-0f766e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/search?q=user%3ANongfsq+topic%3Aactive&type=repositories&s=updated&o=desc)
@@ -11,30 +11,35 @@
 
 ## Systems I Build
 
-I build readable tools, development environments, and focused software systems. My work usually sits close to daily workflows: editor setup, language and dictionary tooling, local automation, translation/research pipelines, and small applications that solve specific problems.
+I work as an independent product owner and architecture owner across frontend, backend, data, DevOps, and AI-assisted engineering. Most production work remains private by design: modular product systems, admin consoles, typed API platforms, cache/search/data layers, media pipelines, observability, and repeatable delivery operations.
 
-Much of the applied work is private. This profile shows the public pieces, the technical shape of the work, and the navigation routes I use to keep projects discoverable.
+The public repositories here are selected artifacts from that wider system: editor setups, repair utilities, monitoring projects, scripts, and experiments that are safe to publish. They are useful public fragments, not the full scale of the private product work.
 
 | Area | What it includes |
 | --- | --- |
-| **Product systems** | TypeScript-heavy private applications, desktop/web experiments, and workflow-first product code. |
-| **Language tooling** | Dictionary interfaces, input-method experiments, structured text workflows, and translation utilities. |
-| **Developer environment** | Neovim/LazyVim, shell configuration, terminal migration, and readable editor ergonomics. |
-| **Automation workflows** | Python, Rust, PowerShell, GitHub CLI, Codex workflows, and local integration scripts. |
-| **Research tooling** | Archive utilities, EPUB processing, translation support, and structured research notes. |
-| **Learning systems** | C++, TypeScript, data structures, and coursework repositories kept for reference. |
+| **Private product systems** | Full-stack product architecture, public and admin surfaces, auth/RBAC, moderation, reputation, commerce, media, analytics, and operational workflows. |
+| **Backend and data platforms** | Rust/Axum APIs, PostgreSQL schemas, SQLx migrations, OpenAPI/Hurl contracts, GraphQL architecture planning, search, cache-aware data flows, and large-data processing. |
+| **Frontend architecture** | Next.js, React, TypeScript, SSR/SEO, interactive maps, WebGL-capable UI, premium motion systems, design systems, and typed client data access. |
+| **DevOps and observability** | Vercel, Railway, Docker, GitHub Actions, Sentry, PostHog, structured logs, deployment runbooks, and one-command local operations. |
+| **Media and research tooling** | Upload/storage pipelines, image/video compression, YouTube/content processing workflows, dictionary tools, translation, EPUB/archive processing, and structured research systems. |
+| **AI and Vibe Coding systems** | Codex workflows, PM -> architecture -> execution plans, Vibe Coding Skills, agent instructions, repo automation, and multi-session handoff systems. |
+| **Developer environment** | Neovim/LazyVim, shell configuration, terminal migration, Rime/input-method work, and recoverable workstation setup. |
+| **Public artifacts** | Small utilities, hobby projects, monitoring tools, and configuration repos that are safe to publish. |
 
 ## Current Work
 
 | Track | Focus | Stack |
 | --- | --- | --- |
-| **Readable environments** | Make editor, shell, and input workflows easier to understand and restore. | Lua · Shell · Python |
-| **Language tools** | Build private dictionary and text-processing workflows around structured language data. | TypeScript · Tauri · Python |
-| **Automation** | Connect local tools, GitHub workflows, and repeatable agent routines. | Python · Rust · PowerShell |
-| **Research systems** | Turn translation, EPUB, and archive work into durable local tooling. | Python · JavaScript |
-| **Small applications** | Build focused apps, monitors, and websites around concrete personal or operational needs. | TypeScript · HTML · Vue |
+| **Private flagship system** | A large modular product platform with public web, admin operations, typed backend contracts, database governance, media workflows, observability, and deployment discipline. | Next.js · React · TypeScript · Rust · PostgreSQL |
+| **Platform architecture** | Design frontend/backend boundaries, API contracts, auth/RBAC, data models, caching strategy, admin governance, and production operations. | Axum · SQLx · OpenAPI · Hurl · Docker |
+| **AI-assisted engineering** | Convert product intent into PM plans, architecture plans, implementation tasks, agent instructions, and reusable Vibe Coding Skills. | Codex · Markdown · PowerShell · GitHub CLI |
+| **Data and media systems** | Work on search, cache-aware flows, GraphQL architecture, archive processing, media storage, image/video compression, and YouTube/content processing pipelines. | Python · Rust · TypeScript · FFmpeg |
+| **Research and language tools** | Build dictionary, translation, EPUB, note, and archive workflows around structured text and repeatable processing. | Python · JavaScript · TypeScript |
+| **Public utilities** | Publish safe small tools: editor configs, monitoring utilities, repair scripts, and development environment experiments. | Lua · Shell · Python · PowerShell |
 
 ## Public Projects
+
+These are the public, lightweight pieces. The main product systems remain private by design.
 
 <table>
   <tr>
@@ -86,10 +91,10 @@ These links use GitHub search and topics as a lightweight project map. Public vi
 | Route | Opens |
 | --- | --- |
 | [Recently active work](https://github.com/search?q=user%3ANongfsq+topic%3Aactive&type=repositories&s=updated&o=desc) | Repositories tagged as active, sorted by recent movement. |
-| [Product systems](https://github.com/search?q=user%3ANongfsq+topic%3Aprivate-product&type=repositories&s=updated&o=desc) | Private product and standalone application work. |
-| [Applications](https://github.com/search?q=user%3ANongfsq+topic%3Aapps&type=repositories&s=updated&o=desc) | Websites, desktop tools, dictionary work, and monitoring projects. |
+| [Product systems](https://github.com/search?q=user%3ANongfsq+topic%3Aprivate-product&type=repositories&s=updated&o=desc) | Owner-visible private product and platform work. |
+| [Applications](https://github.com/search?q=user%3ANongfsq+topic%3Aapps&type=repositories&s=updated&o=desc) | Public websites, monitors, dictionary work, hobby utilities, and smaller application experiments. |
 | [Developer environment](https://github.com/search?q=user%3ANongfsq+topic%3Adev-environment&type=repositories&s=updated&o=desc) | Editor, shell, terminal, and input-method repositories. |
-| [Automation tooling](https://github.com/search?q=user%3ANongfsq+topic%3Apersonal-tooling&type=repositories&s=updated&o=desc) | Codex workflows, repair tools, bridges, and local automation. |
+| [Automation tooling](https://github.com/search?q=user%3ANongfsq+topic%3Apersonal-tooling&type=repositories&s=updated&o=desc) | Codex workflows, Vibe Coding Skills, repair tools, bridges, and local automation. |
 | [Research and writing](https://github.com/search?q=user%3ANongfsq+topic%3Aresearch-writing&type=repositories&s=updated&o=desc) | Archive, EPUB, translation, and structured research tools. |
 
 ## Technical Focus
@@ -106,16 +111,19 @@ These links use GitHub search and topics as a lightweight project map. Public vi
 
 | Layer | Tools and domains |
 | --- | --- |
-| **Application development** | TypeScript, Tauri, Vue, HTML, web APIs, focused desktop/web tools. |
-| **Automation and systems** | Python, Rust, PowerShell, GitHub CLI, local scripts, workflow repair utilities. |
-| **Development environment** | Neovim, LazyVim, Zsh, shell tooling, terminal migration, Rime/input-method work. |
-| **Text and research workflows** | Dictionaries, EPUB processing, translation tooling, archive workflows, structured notes. |
-| **Hardware and monitoring** | Raspberry Pi, status LEDs, URL monitoring, small operational dashboards. |
+| **Product architecture** | Independent product ownership, public/admin surfaces, feature planning, permissions, governance, SEO, and operational workflows. |
+| **Frontend systems** | Next.js, React, TypeScript, SSR, SEO, Tailwind, shadcn/ui, Framer Motion, Mapbox/WebGL, TanStack Query, Zustand. |
+| **Backend and data** | Rust, Axum, Tokio, PostgreSQL, SQLx, migrations, OpenAPI, Hurl, GraphQL architecture, search, caching, authorization, audit/reputation ledgers. |
+| **DevOps and observability** | Vercel, Railway, Docker, GitHub Actions, Sentry, PostHog, structured NDJSON logs, deployment checks, Windows-native local operations. |
+| **Media and automation** | Python, Rust, PowerShell, FFmpeg-style media processing, video compression, YouTube/content workflows, storage pipelines, GitHub CLI automation. |
+| **AI engineering** | Codex workflows, PM/PLAN/TASK documents, Vibe Coding Skills, agent rules, multi-session collaboration, repeatable task handoff. |
+| **Developer environment** | Neovim, LazyVim, Zsh, shell tooling, terminal migration, Rime/input-method work, recoverable workstation setup. |
 
 ## Working Principles
 
 - Build tools that can be reopened and understood months later.
 - Prefer readable configuration over clever configuration.
+- Treat private product code as the main engineering surface and public repos as selected artifacts.
 - Keep public projects useful and private work appropriately private.
 - Turn repeated manual work into durable automation.
 - Treat the development environment as part of the software system.
