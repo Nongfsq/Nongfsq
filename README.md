@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/mises-socialism.svg" alt="Mises Socialism quote banner" width="100%" />
+  <img src="./assets/mises-calculation.svg" alt="Mises economic calculation quote banner" width="100%" />
 </p>
 
 <div align="center">
