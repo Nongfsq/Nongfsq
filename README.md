@@ -10,9 +10,9 @@
 
 ## Systems I Build
 
-I work as an independent product owner and architecture owner across frontend, backend, data, DevOps, and AI-assisted engineering. Most production work remains private by design: modular product systems, admin consoles, typed API platforms, cache/search/data layers, media pipelines, observability, and repeatable delivery operations.
+I design and ship private production systems as an independent builder: product strategy, interface architecture, Rust API platforms, database governance, cache/search layers, media pipelines, DevOps observability, and AI-assisted delivery are treated as one operating system.
 
-The public repositories here are selected artifacts from that wider system: editor setups, repair utilities, monitoring projects, scripts, and experiments that are safe to publish. They are useful public fragments, not the full scale of the private product work.
+The public repositories are deliberately narrow windows into that practice. The main work lives in private integrated systems: multi-surface products with public UX, admin operations, typed contracts, deployment discipline, and internal tooling that lets a solo operation behave like a serious engineering organization.
 
 | Area | What it includes |
 | --- | --- |
