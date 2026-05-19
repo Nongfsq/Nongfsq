@@ -1,6 +1,6 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Mises quote banner</title>
-  <desc id="desc">A dark editorial GitHub profile banner with a quote from Ludwig von Mises.</desc>
+  <desc id="desc">A dark editorial GitHub profile banner with a quote from Ludwig von Mises's Socialism.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#06111F"/>
@@ -33,13 +33,13 @@
 
   <g text-anchor="middle">
     <text x="600" y="152" fill="#F8FAFC" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700" letter-spacing="-1">
-      Human action is purposeful behavior.
+      It does not build; it destroys.
     </text>
     <text x="600" y="214" fill="#CCFBF1" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" letter-spacing="3">
       LUDWIG VON MISES
     </text>
     <text x="600" y="248" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">
-      Human Action
+      Socialism
     </text>
   </g>
 </svg>
