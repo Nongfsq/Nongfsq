@@ -5,7 +5,7 @@
 [![Systems practice](https://img.shields.io/badge/Systems%20practice-product%20%7C%20platform%20%7C%20ops-111827?style=for-the-badge&logo=github&logoColor=white)](#systems-i-build)
 [![Architecture](https://img.shields.io/badge/Architecture-data%20%7C%20API%20%7C%20security-0f766e?style=for-the-badge&logo=graphql&logoColor=white)](#current-work)
 [![Engineering stack](https://img.shields.io/badge/Engineering%20stack-full--stack%20%7C%20DevOps%20%7C%20QA-2563eb?style=for-the-badge&logo=typescript&logoColor=white)](#technical-focus)
-[![Public repositories](https://img.shields.io/badge/Public%20repositories-selected%20artifacts-7c2d12?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed)
+[![Public repositories](https://img.shields.io/badge/Public%20repositories-workbench%20tools-7c2d12?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed)
 
 </div>
 
@@ -76,9 +76,9 @@ flowchart TB
 
 Current architecture tracks: contract design, domain-service boundaries, map read-model behavior, role-scoped governance, provider isolation, observability events, and repeatable verification.
 
-## Public Projects
+## Public Workbench
 
-Selected public artifacts from a broader private engineering practice.
+Small public pieces from my own workbench: configs, repair scripts, monitors, and experiments that were useful enough to keep outside private systems. Not the main body of work, but usually practical.
 
 <table>
   <tr>
