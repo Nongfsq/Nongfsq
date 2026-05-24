@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=960&lines=Independent+product+systems+architect;Typed+platforms%2C+data+planes%2C+security+boundaries;AI-assisted+delivery%2C+production-grade+verification)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=960&lines=Company-scale+private+product+systems;Typed+platforms%2C+data+planes%2C+security+boundaries;AI-assisted+delivery%2C+production-grade+verification)](https://git.io/typing-svg)
 
 [![Systems practice](https://img.shields.io/badge/Systems%20practice-product%20%7C%20platform%20%7C%20ops-111827?style=for-the-badge&logo=github&logoColor=white)](#systems-i-build)
 [![Architecture](https://img.shields.io/badge/Architecture-data%20%7C%20API%20%7C%20security-0f766e?style=for-the-badge&logo=graphql&logoColor=white)](#current-work)
@@ -11,35 +11,70 @@
 
 ## Systems I Build
 
-I build private production systems end to end: product strategy, interface architecture, geospatial data planes, Rust API platforms, database governance, cache/search layers, security boundaries, media pipelines, DevOps observability, and AI-assisted delivery as one operating system.
+I build private, company-scale product systems where product design, platform architecture, data governance, security, delivery, and AI-assisted execution are treated as one operating system.
 
-The public repositories are selected artifacts from that practice. The deeper work lives in private integrated systems: multi-surface products with public UX, dedicated admin operations, typed contracts, role-governed security, privacy-aware analytics, deployment discipline, and internal tooling that lets a solo operation behave like a serious engineering organization.
+```mermaid
+flowchart LR
+    Intent["Product intent\nmarket, domain, UX"] --> Surfaces["Product surfaces\npublic web, admin ops, commerce"]
+    Surfaces --> Contracts["Typed contracts\nREST, GraphQL, DTOs"]
+    Contracts --> Core["Platform core\nRust services, PostgreSQL"]
+    Core --> Data["Data plane\nmaps, search, media, ledgers"]
+    Data --> Ops["Operations\nobservability, QA, deployment"]
+    Ops --> Intent
 
-| Area | What it includes |
-| --- | --- |
-| **Private product systems** | Public UX, admin operations, canonical archives, profile/social layers, reputation, commerce, media, moderation, and workflow design. |
-| **Data and API platforms** | Rust/Axum services, PostgreSQL schemas, SQLx migrations, OpenAPI/Hurl contracts, GraphQL Experience API planning, read models, search vectors, and audit ledgers. |
-| **Map and cache architecture** | Viewport/bbox/zoom request design, approximate-location privacy, clustering, Redis-style cache keys, stale-while-revalidate, ETags, and request coalescing. |
-| **Frontend architecture** | Next.js, React, TypeScript, SSR/RSC, SEO metadata, Mapbox/WebGL, capability-based motion runtime, design systems, typed data access, and accessibility. |
-| **Security and governance** | Auth/RBAC, role matrices, WebAuthn/passkeys, step-up verification, separated admin surfaces, high-privilege guardrails, non-enumerating policy, and audit evidence. |
-| **Operations and verification** | Vercel, Railway, Docker, manual CI gates, Sentry, privacy-safe PostHog, NDJSON logs, diagnostic CLIs, Vitest, Playwright, Rust tests, Hurl, and mobile QA. |
-| **Media and research systems** | Object storage boundaries, image/video compression, YouTube/content workflows, dictionary tools, translation, EPUB/archive processing, and structured research systems. |
-| **AI and Vibe Coding systems** | PM -> architecture -> execution plans, Codex workflows, Vibe Coding Skills, agent instructions, repo automation, and multi-session handoff systems. |
-| **Public artifacts** | Small utilities, development environments, monitoring tools, repair scripts, and configuration repos that are safe to publish. |
+    Security["Security + governance\nauth, RBAC, audit"] -. guards .-> Surfaces
+    Security -. guards .-> Core
+    AI["AI delivery system\nplans, tasks, agent handoffs"] -. accelerates .-> Contracts
+    AI -. accelerates .-> Ops
+```
+
+The public repositories are selected artifacts from a broader private engineering practice. The deeper work lives in integrated systems with public UX, dedicated admin operations, typed API boundaries, role-governed security, privacy-aware analytics, deployment discipline, and internal tooling designed to keep a serious product organization moving.
 
 ## Current Work
 
-| Track | Focus | Stack |
-| --- | --- | --- |
-| **Private flagship system** | A large modular product platform with geospatial discovery, canonical archives, profile/social systems, admin operations, reputation governance, hosted commerce, media workflows, and deployment discipline. | Next.js · React · TypeScript · Rust · PostgreSQL |
-| **Experience and data APIs** | Design frontend/backend boundaries, GraphQL Experience API direction, OpenAPI/Hurl contracts, typed DTOs, read models, service/query layers, and field/object permission rules. | Axum · SQLx · OpenAPI · Hurl · GraphQL |
-| **Map data plane** | Model viewport-scoped requests, bbox/zoom buckets, approximate coordinates, cluster responses, cache keys, retry/degraded states, and high-frequency map cost control. | Mapbox · PostgreSQL · Redis patterns · TanStack Query |
-| **Security and governance** | Build auth/RBAC, admin-surface separation, WebAuthn/passkeys, step-up verification, role-scope visibility, high-privilege guardrails, non-enumeration, and audit trails. | Rust · WebAuthn · JWT · SQLx |
-| **Observability and QA** | Maintain structured logs, request correlation, diagnostic reports, privacy-safe analytics, contract tests, mobile evidence, and AI-readable failure loops. | Sentry · PostHog · NDJSON · Playwright · Hurl |
-| **AI-assisted engineering** | Convert product intent into PM plans, architecture plans, implementation tasks, agent instructions, multi-session worktrees, and reusable Vibe Coding Skills. | Codex · Markdown · PowerShell · GitHub CLI |
-| **Data and media systems** | Work on search, indexing, cache-aware flows, archive processing, media storage, image/video compression, and YouTube/content processing pipelines. | Python · Rust · TypeScript · FFmpeg |
-| **Research and language tools** | Build dictionary, translation, EPUB, note, and archive workflows around structured text and repeatable processing. | Python · JavaScript · TypeScript |
-| **Public utilities** | Publish safe small tools: editor configs, monitoring utilities, repair scripts, and development environment experiments. | Lua · Shell · Python · PowerShell |
+The current flagship work is a company-grade private product platform with geospatial discovery, canonical archives, profile and social systems, admin operations, reputation governance, hosted commerce, media workflows, and deployment discipline.
+
+```mermaid
+mindmap
+  root((Current work))
+    Product platform
+      Geospatial discovery
+      Canonical archive
+      Profile and social systems
+      Commerce and media workflows
+    Platform core
+      Rust Axum API
+      PostgreSQL plus SQLx
+      OpenAPI plus GraphQL boundary
+      Cache and search read models
+    Governance
+      Auth and RBAC
+      Admin surface separation
+      WebAuthn and step up flows
+      Audit evidence
+    Operations
+      Vercel and Railway delivery
+      Sentry PostHog NDJSON
+      Playwright Hurl Rust tests
+      Mobile QA evidence
+    AI execution
+      PM to architecture to task plans
+      Codex workflows
+      Agent instructions
+      Multi session handoffs
+```
+
+```mermaid
+flowchart TB
+    Web["Public web\nNext.js, SEO, maps"] --> Boundary["Experience boundary\nsame-origin proxy, typed clients"]
+    Admin["Admin operations\nmoderation, governance, observability"] --> Boundary
+    Boundary --> API["Rust API\nservices, queries, contracts"]
+    API --> PG[("PostgreSQL\nstate, ledgers, search")]
+    API --> Providers["Provider plane\nCloudflare, Mapbox, commerce, email"]
+    API --> Evidence["Evidence loop\nlogs, tests, diagnostics"]
+```
+
+Current tracks: product-surface architecture, map data plane, API contracts, security governance, media pipeline, observability, QA evidence, and AI-assisted delivery infrastructure.
 
 ## Public Projects
 
