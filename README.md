@@ -28,8 +28,6 @@ flowchart LR
     AI -. accelerates .-> Ops
 ```
 
-The public repositories are selected artifacts from a broader private engineering practice. The deeper work lives in integrated systems with public UX, dedicated admin operations, typed API boundaries, role-governed security, privacy-aware analytics, deployment discipline, and internal tooling designed to keep a serious product organization moving.
-
 ## Current Work
 
 The current flagship work is a company-grade private product platform with geospatial discovery, canonical archives, profile and social systems, admin operations, reputation governance, hosted commerce, media workflows, and deployment discipline.
