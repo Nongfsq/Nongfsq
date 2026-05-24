@@ -163,18 +163,54 @@ Small public pieces from my own workbench: configs, repair scripts, monitors, an
   <img alt="Neovim" src="https://img.shields.io/badge/Neovim-111827?style=flat-square&logo=neovim">
 </p>
 
-| Layer | Tools and domains |
-| --- | --- |
-| **Product and systems architecture** | Independent product ownership, domain modeling, canonical content objects, public/admin surfaces, permissions, governance, SEO, commerce boundaries, and operational workflows. |
-| **Frontend platform** | Next.js, React, TypeScript, SSR/RSC, Tailwind, shadcn/ui, Framer Motion, Mapbox/WebGL, TanStack Query, Zustand, accessibility, and premium interaction design. |
-| **Backend platform** | Rust, Axum, Tokio, SQLx, PostgreSQL, migrations, auth/RBAC, OpenAPI, Hurl, GraphQL Experience API planning, service/query layering, and typed contracts. |
-| **Data and scale** | Map Data Plane, cache keys, request coalescing, ETags, search vectors, indexing, audit/reputation ledgers, large-data processing, structured archives, dictionary data, and media metadata pipelines. |
-| **Security and governance** | WebAuthn/passkeys, elevated verification, admin-surface separation, role-scope visibility, high-privilege guardrails, non-enumerating responses, and audit evidence. |
-| **DevOps and observability** | Vercel, Railway, Docker, GitHub Actions, Sentry, PostHog, structured NDJSON logs, request tracing, diagnostic CLIs, deployment checks, and Windows-native local operations. |
-| **Quality and verification** | Vitest/RTL, Playwright, Rust integration tests, Hurl contracts, OpenAPI type generation, Android mobile QA, privacy guardrails, and AI-readable diagnostic reports. |
-| **Media and automation** | Python, Rust, PowerShell, FFmpeg-style media processing, image/video compression, YouTube/content workflows, object storage pipelines, and GitHub CLI automation. |
-| **AI engineering** | Codex workflows, PM/PLAN/TASK documents, Vibe Coding Skills, agent rules, multi-session collaboration, instruction systems, branch/worktree protocols, and repeatable task handoff. |
-| **Developer environment** | Neovim, LazyVim, Lua, Zsh, shell tooling, terminal migration, Rime/input-method work, and recoverable workstation setup. |
+<p align="center">
+  <sub><em>Plot twist: none of the above matters. Just learn <strong>Vibe Coding</strong>.</em></sub>
+</p>
+
+```mermaid
+mindmap
+  root((Technical focus))
+    Product architecture
+      Domain modeling
+      Canonical objects
+      Public and admin surfaces
+      Operational workflows
+    Frontend platform
+      Next.js React TypeScript
+      SSR RSC SEO
+      Mapbox WebGL
+      Accessibility and motion budgets
+    Backend platform
+      Rust Axum Tokio
+      SQLx PostgreSQL migrations
+      OpenAPI Hurl contracts
+      GraphQL experience boundary
+    Data systems
+      Map data plane
+      Cache keys and ETags
+      Search vectors and indexes
+      Audit and reputation ledgers
+    Governance
+      RBAC and WebAuthn
+      Step-up verification
+      Admin surface separation
+      Non-enumerating responses
+    Delivery and evidence
+      Vercel Railway Docker
+      Sentry PostHog NDJSON
+      Vitest Playwright Rust tests
+      AI-readable diagnostics
+    Automation
+      Codex workflows
+      PM PLAN TASK documents
+      Vibe Coding Skills
+      GitHub CLI and PowerShell
+    Workstation
+      Neovim LazyVim Lua
+      Zsh shell tooling
+      Rime input workflow
+      Recoverable setup
+```
 
 ## Operating Standard
 
