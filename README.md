@@ -62,18 +62,6 @@ mindmap
       Deployment rollback path
 ```
 
-```mermaid
-flowchart TB
-    Web["Public surface\nrendering, SEO, interaction"] --> Proxy["Same-origin API boundary\ncookies, typed clients"]
-    Admin["Admin surface\ngovernance, moderation, operations"] --> Proxy
-    Proxy --> API["Application API\nRust Axum, policy, orchestration"]
-    API --> Services["Domain services\ntransactions, invariants, side effects"]
-    Services --> Queries["Query layer\nread models, search, map slices"]
-    Services --> PG[("PostgreSQL\nstate, ledgers, indexes")]
-    Services --> Adapters["Provider adapters\nmedia, maps, commerce, email"]
-    API --> Evidence["Verification surface\nOpenAPI, Hurl, logs, traces"]
-```
-
 Current architecture tracks: contract design, domain-service boundaries, map read-model behavior, role-scoped governance, provider isolation, observability events, and repeatable verification.
 
 ## Public Workbench
