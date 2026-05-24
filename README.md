@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=960&lines=Company-scale+private+product+systems;Typed+platforms%2C+data+planes%2C+security+boundaries;AI-assisted+delivery%2C+production-grade+verification)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=0F766E&center=true&vCenter=true&width=960&lines=Private+product+systems+architecture;Typed+boundaries%2C+data+planes%2C+governance+models;AI-assisted+delivery%2C+verification+loops)](https://git.io/typing-svg)
 
 [![Systems practice](https://img.shields.io/badge/Systems%20practice-product%20%7C%20platform%20%7C%20ops-111827?style=for-the-badge&logo=github&logoColor=white)](#systems-i-build)
 [![Architecture](https://img.shields.io/badge/Architecture-data%20%7C%20API%20%7C%20security-0f766e?style=for-the-badge&logo=graphql&logoColor=white)](#current-work)
@@ -11,7 +11,7 @@
 
 ## Systems I Build
 
-I build private, company-scale product systems where product design, platform architecture, data governance, security, delivery, and AI-assisted execution are treated as one operating system.
+I build private product systems where product design, platform architecture, data governance, security, delivery, and AI-assisted execution are treated as one coordinated delivery system.
 
 ```mermaid
 flowchart LR
@@ -30,49 +30,51 @@ flowchart LR
 
 ## Current Work
 
-The current flagship work is a company-grade private product platform with geospatial discovery, canonical archives, profile and social systems, admin operations, reputation governance, hosted commerce, media workflows, and deployment discipline.
+Current work centers on a private production system. I keep the public description at the architecture level: domain ownership, API boundaries, data behavior, privilege separation, and the evidence needed to operate changes safely.
 
 ```mermaid
 mindmap
-  root((Current work))
-    Product platform
-      Geospatial discovery
-      Canonical archive
-      Profile and social systems
-      Commerce and media workflows
-    Platform core
-      Rust Axum API
-      PostgreSQL plus SQLx
-      OpenAPI plus GraphQL boundary
-      Cache and search read models
-    Governance
-      Auth and RBAC
-      Admin surface separation
-      WebAuthn and step up flows
-      Audit evidence
-    Operations
-      Vercel and Railway delivery
-      Sentry PostHog NDJSON
-      Playwright Hurl Rust tests
-      Mobile QA evidence
-    AI execution
-      PM to architecture to task plans
-      Codex workflows
-      Agent instructions
-      Multi session handoffs
+  root((Architecture work))
+    Domain ownership
+      Canonical content identity
+      Lifecycle and moderation states
+      Reputation and audit ledgers
+      Public versus administrative authority
+    Contract boundaries
+      REST for protocol and data-plane reads
+      GraphQL for composed experience views
+      Generated clients and DTOs
+      Contract smoke tests
+    Data behavior
+      Viewport-scoped map reads
+      Approximate location policy
+      Search and cache read models
+      Migration and index discipline
+    Privilege model
+      Role-scoped capabilities
+      Admin-origin separation
+      Step-up verification
+      Non-enumerating responses
+    Operability
+      Structured diagnostics
+      Request correlation
+      Failure evidence
+      Deployment rollback path
 ```
 
 ```mermaid
 flowchart TB
-    Web["Public web\nNext.js, SEO, maps"] --> Boundary["Experience boundary\nsame-origin proxy, typed clients"]
-    Admin["Admin operations\nmoderation, governance, observability"] --> Boundary
-    Boundary --> API["Rust API\nservices, queries, contracts"]
-    API --> PG[("PostgreSQL\nstate, ledgers, search")]
-    API --> Providers["Provider plane\nCloudflare, Mapbox, commerce, email"]
-    API --> Evidence["Evidence loop\nlogs, tests, diagnostics"]
+    Web["Public surface\nrendering, SEO, interaction"] --> Proxy["Same-origin API boundary\ncookies, typed clients"]
+    Admin["Admin surface\ngovernance, moderation, operations"] --> Proxy
+    Proxy --> API["Application API\nRust Axum, policy, orchestration"]
+    API --> Services["Domain services\ntransactions, invariants, side effects"]
+    Services --> Queries["Query layer\nread models, search, map slices"]
+    Services --> PG[("PostgreSQL\nstate, ledgers, indexes")]
+    Services --> Adapters["Provider adapters\nmedia, maps, commerce, email"]
+    API --> Evidence["Verification surface\nOpenAPI, Hurl, logs, traces"]
 ```
 
-Current tracks: product-surface architecture, map data plane, API contracts, security governance, media pipeline, observability, QA evidence, and AI-assisted delivery infrastructure.
+Current architecture tracks: contract design, domain-service boundaries, map read-model behavior, role-scoped governance, provider isolation, observability events, and repeatable verification.
 
 ## Public Projects
 
