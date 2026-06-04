@@ -32,8 +32,35 @@ flowchart LR
 
 Current work centers on a private production system. I keep the public description at the architecture level: domain ownership, API boundaries, data behavior, privilege separation, and the evidence needed to operate changes safely.
 
-![Architecture work mindmap](./assets/profile/architecture-work-dark.png#gh-dark-mode-only)
-![Architecture work mindmap](./assets/profile/architecture-work-light.png#gh-light-mode-only)
+```mermaid
+mindmap
+  root(Architecture work)
+    Domain ownership
+      Canonical content identity
+      Lifecycle and moderation states
+      Reputation and audit ledgers
+      Public versus administrative authority
+    Contract boundaries
+      REST for protocol and data-plane reads
+      GraphQL for composed experience views
+      Generated clients and DTOs
+      Contract smoke tests
+    Data behavior
+      Viewport-scoped map reads
+      Approximate location policy
+      Search and cache read models
+      Migration and index discipline
+    Privilege model
+      Role-scoped capabilities
+      Admin-origin separation
+      Step-up verification
+      Non-enumerating responses
+    Operability
+      Structured diagnostics
+      Request correlation
+      Failure evidence
+      Deployment rollback path
+```
 
 Current architecture tracks: contract design, domain-service boundaries, map read-model behavior, role-scoped governance, provider isolation, observability events, and repeatable verification.
 
@@ -128,8 +155,50 @@ Small public pieces from my own workbench: configs, repair scripts, monitors, an
   <sub><em>Plot twist: none of the above matters. Just learn <strong>Vibe Coding</strong>.</em></sub>
 </p>
 
-![Technical focus mindmap](./assets/profile/technical-focus-dark.png#gh-dark-mode-only)
-![Technical focus mindmap](./assets/profile/technical-focus-light.png#gh-light-mode-only)
+```mermaid
+mindmap
+  root(Technical focus)
+    Product architecture
+      Domain modeling
+      Canonical objects
+      Public and admin surfaces
+      Operational workflows
+    Frontend platform
+      Next.js React TypeScript
+      SSR RSC SEO
+      Mapbox WebGL
+      Accessibility and motion budgets
+    Backend platform
+      Rust Axum Tokio
+      SQLx PostgreSQL migrations
+      OpenAPI Hurl contracts
+      GraphQL experience boundary
+    Data systems
+      Map data plane
+      Cache keys and ETags
+      Search vectors and indexes
+      Audit and reputation ledgers
+    Governance
+      RBAC and WebAuthn
+      Step-up verification
+      Admin surface separation
+      Non-enumerating responses
+    Delivery and evidence
+      Vercel Railway Docker
+      Sentry PostHog NDJSON
+      Vitest Playwright Rust tests
+      AI-readable diagnostics
+    Automation
+      Codex workflows
+      PM PLAN TASK documents
+      Vibe Coding Skills
+      GitHub CLI and PowerShell
+    Workstation
+      Neovim LazyVim Lua
+      Zsh shell tooling
+      Rime input workflow
+      Recoverable setup
+```
 
 ## Operating Standard
 
