@@ -32,40 +32,8 @@ flowchart LR
 
 Current work centers on a private production system. I keep the public description at the architecture level: domain ownership, API boundaries, data behavior, privilege separation, and the evidence needed to operate changes safely.
 
-```mermaid
-flowchart TB
-    Work["Architecture work"]
-
-    Work --> Domain["Domain ownership"]
-    Domain --> Identity["Canonical content identity"]
-    Domain --> Lifecycle["Lifecycle and moderation states"]
-    Domain --> Reputation["Reputation and audit ledgers"]
-    Domain --> Authority["Public versus administrative authority"]
-
-    Work --> Contracts["Contract boundaries"]
-    Contracts --> Rest["REST for protocol and data-plane reads"]
-    Contracts --> Graphql["GraphQL for composed experience views"]
-    Contracts --> Clients["Generated clients and DTOs"]
-    Contracts --> Smoke["Contract smoke tests"]
-
-    Work --> Data["Data behavior"]
-    Data --> Viewport["Viewport-scoped map reads"]
-    Data --> Location["Approximate location policy"]
-    Data --> ReadModels["Search and cache read models"]
-    Data --> Migration["Migration and index discipline"]
-
-    Work --> Privilege["Privilege model"]
-    Privilege --> Capabilities["Role-scoped capabilities"]
-    Privilege --> AdminOrigin["Admin-origin separation"]
-    Privilege --> StepUp["Step-up verification"]
-    Privilege --> NonEnumerating["Non-enumerating responses"]
-
-    Work --> Ops["Operability"]
-    Ops --> Diagnostics["Structured diagnostics"]
-    Ops --> Correlation["Request correlation"]
-    Ops --> Failure["Failure evidence"]
-    Ops --> Rollback["Deployment rollback path"]
-```
+![Architecture work mindmap](./assets/profile/architecture-work-dark.png#gh-dark-mode-only)
+![Architecture work mindmap](./assets/profile/architecture-work-light.png#gh-light-mode-only)
 
 Current architecture tracks: contract design, domain-service boundaries, map read-model behavior, role-scoped governance, provider isolation, observability events, and repeatable verification.
 
@@ -160,58 +128,8 @@ Small public pieces from my own workbench: configs, repair scripts, monitors, an
   <sub><em>Plot twist: none of the above matters. Just learn <strong>Vibe Coding</strong>.</em></sub>
 </p>
 
-```mermaid
-flowchart TB
-    Focus["Technical focus"]
-
-    Focus --> Product["Product architecture"]
-    Product --> DomainModeling["Domain modeling"]
-    Product --> CanonicalObjects["Canonical objects"]
-    Product --> Surfaces["Public and admin surfaces"]
-    Product --> Workflows["Operational workflows"]
-
-    Focus --> Frontend["Frontend platform"]
-    Frontend --> NextStack["Next.js React TypeScript"]
-    Frontend --> Seo["SSR RSC SEO"]
-    Frontend --> Mapbox["Mapbox WebGL"]
-    Frontend --> Accessibility["Accessibility and motion budgets"]
-
-    Focus --> Backend["Backend platform"]
-    Backend --> RustStack["Rust Axum Tokio"]
-    Backend --> Sqlx["SQLx PostgreSQL migrations"]
-    Backend --> Openapi["OpenAPI Hurl contracts"]
-    Backend --> GraphqlBoundary["GraphQL experience boundary"]
-
-    Focus --> DataSystems["Data systems"]
-    DataSystems --> MapData["Map data plane"]
-    DataSystems --> Cache["Cache keys and ETags"]
-    DataSystems --> Search["Search vectors and indexes"]
-    DataSystems --> Ledgers["Audit and reputation ledgers"]
-
-    Focus --> Governance["Governance"]
-    Governance --> Rbac["RBAC and WebAuthn"]
-    Governance --> StepUpTech["Step-up verification"]
-    Governance --> AdminSurface["Admin surface separation"]
-    Governance --> NonEnumeratingTech["Non-enumerating responses"]
-
-    Focus --> Delivery["Delivery and evidence"]
-    Delivery --> Hosting["Vercel Railway Docker"]
-    Delivery --> Observability["Sentry PostHog NDJSON"]
-    Delivery --> Testing["Vitest Playwright Rust tests"]
-    Delivery --> DiagnosticsTech["AI-readable diagnostics"]
-
-    Focus --> Automation["Automation"]
-    Automation --> Codex["Codex workflows"]
-    Automation --> Planning["PM PLAN TASK documents"]
-    Automation --> Skills["Vibe Coding Skills"]
-    Automation --> Cli["GitHub CLI and PowerShell"]
-
-    Focus --> Workstation["Workstation"]
-    Workstation --> Neovim["Neovim LazyVim Lua"]
-    Workstation --> Shell["Zsh shell tooling"]
-    Workstation --> Rime["Rime input workflow"]
-    Workstation --> Setup["Recoverable setup"]
-```
+![Technical focus mindmap](./assets/profile/technical-focus-dark.png#gh-dark-mode-only)
+![Technical focus mindmap](./assets/profile/technical-focus-light.png#gh-light-mode-only)
 
 ## Operating Standard
 
