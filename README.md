@@ -5,7 +5,7 @@
 [![Systems practice](https://img.shields.io/badge/Systems%20practice-product%20%7C%20platform%20%7C%20ops-111827?style=for-the-badge&logo=github&logoColor=white)](#systems-i-build)
 [![Architecture](https://img.shields.io/badge/Architecture-data%20%7C%20API%20%7C%20security-0f766e?style=for-the-badge&logo=graphql&logoColor=white)](#current-work)
 [![Engineering stack](https://img.shields.io/badge/Engineering%20stack-full--stack%20%7C%20DevOps%20%7C%20QA-2563eb?style=for-the-badge&logo=typescript&logoColor=white)](#technical-focus)
-[![Public repositories](https://img.shields.io/badge/Public%20repositories-workbench%20tools-7c2d12?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed)
+[![Public repositories](https://img.shields.io/badge/Public%20repositories-operator%20utilities-7c2d12?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed)
 
 </div>
 
@@ -66,10 +66,19 @@ Current architecture tracks: contract design, domain-service boundaries, map rea
 
 ## Public Workbench
 
-Open-source pieces from my own operating environment: session guards, storage repair consoles, governance kits, monitoring utilities, and workstation configuration. They are small, practical systems built around recoverability, long-session comfort, and explicit operator control.
+Open-source pieces from my own operating environment: OTP handoff, remote-session display guards, Android debugging protection, storage governance, device repair, monitoring utilities, and workstation configuration. They are small, practical systems built around recoverability, long-session comfort, and explicit operator control.
 
 <table>
   <tr>
+    <td width="50%">
+      <a href="https://github.com/Nongfsq/otp-bridge">
+        <strong>otp-bridge</strong>
+      </a>
+      <br />
+      iPhone SMS OTP handoff for Windows through a private ntfy topic and paste-only clipboard delivery.
+      <br />
+      <sub>C# · Windows tray · iOS Shortcuts · ntfy · Credential Manager</sub>
+    </td>
     <td width="50%">
       <a href="https://github.com/Nongfsq/HdrGuard">
         <strong>HdrGuard</strong>
@@ -79,6 +88,8 @@ Open-source pieces from my own operating environment: session guards, storage re
       <br />
       <sub>C# · Windows tray · RustDesk · HDR session guard</sub>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <a href="https://github.com/Nongfsq/usb-debug-guard">
         <strong>usb-debug-guard</strong>
@@ -87,17 +98,6 @@ Open-source pieces from my own operating environment: session guards, storage re
       Root-only Android screen guard for long USB debugging sessions.
       <br />
       <sub>Kotlin · Android · Jetpack Compose · root tooling</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/Nongfsq/win11-storage-governance-kit">
-        <strong>win11-storage-governance-kit</strong>
-      </a>
-      <br />
-      Codex Skills kit for safe Windows 11 C-drive cleanup, storage migration, and cache governance.
-      <br />
-      <sub>Python · Codex Skills · Windows storage governance</sub>
     </td>
     <td width="50%">
       <a href="https://github.com/Nongfsq/samsung-t-series-console">
@@ -111,6 +111,15 @@ Open-source pieces from my own operating environment: session guards, storage re
   </tr>
   <tr>
     <td width="50%">
+      <a href="https://github.com/Nongfsq/win11-storage-governance-kit">
+        <strong>win11-storage-governance-kit</strong>
+      </a>
+      <br />
+      Codex Skills kit for safe Windows 11 C-drive cleanup, storage migration, and cache governance.
+      <br />
+      <sub>Python · Codex Skills · Windows storage governance</sub>
+    </td>
+    <td width="50%">
       <a href="https://github.com/Nongfsq/clarity_lazyvim">
         <strong>clarity_lazyvim</strong>
       </a>
@@ -119,6 +128,8 @@ Open-source pieces from my own operating environment: session guards, storage re
       <br />
       <sub>Lua · LazyVim · public template · editor environment</sub>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <a href="https://github.com/Nongfsq/zsh_config">
         <strong>zsh_config</strong>
@@ -128,8 +139,6 @@ Open-source pieces from my own operating environment: session guards, storage re
       <br />
       <sub>Shell · Zsh · configuration · development environment</sub>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <a href="https://github.com/Nongfsq/pi-monitor">
         <strong>pi-monitor</strong>
@@ -138,15 +147,6 @@ Open-source pieces from my own operating environment: session guards, storage re
       Raspberry Pi website monitoring with RGB LED status and a small web interface.
       <br />
       <sub>Python · Raspberry Pi · monitoring · hardware status</sub>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed">
-        <strong>More public repositories</strong>
-      </a>
-      <br />
-      Additional scripts, experiments, and operational utilities are published as they become reusable outside private systems.
-      <br />
-      <sub>Workbench tools · public releases · practical infrastructure</sub>
     </td>
   </tr>
 </table>
@@ -160,15 +160,36 @@ Open-source pieces from my own operating environment: session guards, storage re
   <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-111827?style=flat-square&logo=tailwindcss">
   <img alt="Framer Motion" src="https://img.shields.io/badge/Framer_Motion-111827?style=flat-square&logo=framer">
   <img alt="TanStack Query" src="https://img.shields.io/badge/TanStack_Query-111827?style=flat-square&logo=reactquery">
+  <a href="https://github.com/search?q=user%3ANongfsq+language%3AVue&type=repositories"><img alt="Vue" src="https://img.shields.io/badge/Vue-111827?style=flat-square&logo=vuedotjs"></a>
+  <img alt="Mapbox" src="https://img.shields.io/badge/Mapbox-111827?style=flat-square&logo=mapbox">
+  <br />
+  <a href="https://github.com/search?q=user%3ANongfsq+language%3AC%23&type=repositories"><img alt="C#" src="https://img.shields.io/badge/C%23-111827?style=flat-square&logo=csharp"></a>
+  <img alt=".NET" src="https://img.shields.io/badge/.NET-111827?style=flat-square&logo=dotnet">
+  <img alt="Windows" src="https://img.shields.io/badge/Windows-111827?style=flat-square&logo=windows11">
+  <img alt="Windows Tray" src="https://img.shields.io/badge/Windows_Tray-111827?style=flat-square">
+  <img alt="Credential Manager" src="https://img.shields.io/badge/Credential_Manager-111827?style=flat-square&logo=microsoft">
+  <img alt="iOS Shortcuts" src="https://img.shields.io/badge/iOS_Shortcuts-111827?style=flat-square&logo=apple">
+  <img alt="ntfy" src="https://img.shields.io/badge/ntfy-111827?style=flat-square">
+  <br />
+  <a href="https://github.com/search?q=user%3ANongfsq+language%3AKotlin&type=repositories"><img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-111827?style=flat-square&logo=kotlin"></a>
+  <img alt="Android" src="https://img.shields.io/badge/Android-111827?style=flat-square&logo=android">
+  <img alt="Jetpack Compose" src="https://img.shields.io/badge/Jetpack_Compose-111827?style=flat-square&logo=jetpackcompose">
+  <img alt="Material 3" src="https://img.shields.io/badge/Material_3-111827?style=flat-square&logo=materialdesign">
+  <img alt="ADB" src="https://img.shields.io/badge/ADB-111827?style=flat-square&logo=android">
+  <img alt="Root tooling" src="https://img.shields.io/badge/Root_tooling-111827?style=flat-square">
+  <br />
   <a href="https://github.com/search?q=user%3ANongfsq+language%3APython&type=repositories"><img alt="Python" src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python"></a>
   <a href="https://github.com/search?q=user%3ANongfsq+language%3ARust&type=repositories"><img alt="Rust" src="https://img.shields.io/badge/Rust-111827?style=flat-square&logo=rust"></a>
   <img alt="Axum" src="https://img.shields.io/badge/Axum-111827?style=flat-square&logo=rust">
+  <img alt="Tokio" src="https://img.shields.io/badge/Tokio-111827?style=flat-square&logo=rust">
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql">
   <img alt="SQLx" src="https://img.shields.io/badge/SQLx-111827?style=flat-square&logo=postgresql">
   <img alt="OpenAPI" src="https://img.shields.io/badge/OpenAPI-111827?style=flat-square&logo=openapiinitiative">
   <img alt="GraphQL" src="https://img.shields.io/badge/GraphQL-111827?style=flat-square&logo=graphql">
   <img alt="Redis" src="https://img.shields.io/badge/Redis-111827?style=flat-square&logo=redis">
+  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-111827?style=flat-square&logo=sqlite">
   <img alt="WebAuthn" src="https://img.shields.io/badge/WebAuthn-111827?style=flat-square">
+  <br />
   <img alt="Docker" src="https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker">
   <img alt="Vercel" src="https://img.shields.io/badge/Vercel-111827?style=flat-square&logo=vercel">
   <img alt="Railway" src="https://img.shields.io/badge/Railway-111827?style=flat-square&logo=railway">
@@ -177,18 +198,28 @@ Open-source pieces from my own operating environment: session guards, storage re
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-111827?style=flat-square&logo=githubactions">
   <img alt="Sentry" src="https://img.shields.io/badge/Sentry-111827?style=flat-square&logo=sentry">
   <img alt="PostHog" src="https://img.shields.io/badge/PostHog-111827?style=flat-square&logo=posthog">
+  <img alt="NDJSON" src="https://img.shields.io/badge/NDJSON-111827?style=flat-square">
+  <br />
   <img alt="Playwright" src="https://img.shields.io/badge/Playwright-111827?style=flat-square&logo=playwright">
   <img alt="Vitest" src="https://img.shields.io/badge/Vitest-111827?style=flat-square&logo=vitest">
   <img alt="Hurl" src="https://img.shields.io/badge/Hurl-111827?style=flat-square">
+  <img alt="Checksums" src="https://img.shields.io/badge/Checksums-111827?style=flat-square">
+  <img alt="Release ZIPs" src="https://img.shields.io/badge/Release_ZIPs-111827?style=flat-square&logo=github">
+  <br />
   <img alt="FFmpeg" src="https://img.shields.io/badge/FFmpeg-111827?style=flat-square&logo=ffmpeg">
-  <img alt="Mapbox" src="https://img.shields.io/badge/Mapbox-111827?style=flat-square&logo=mapbox">
   <img alt="Bun" src="https://img.shields.io/badge/Bun-111827?style=flat-square&logo=bun">
+  <img alt="uv" src="https://img.shields.io/badge/uv-111827?style=flat-square&logo=python">
+  <img alt="Codex Skills" src="https://img.shields.io/badge/Codex_Skills-111827?style=flat-square&logo=openai">
+  <img alt="MCP" src="https://img.shields.io/badge/MCP-111827?style=flat-square">
   <a href="https://github.com/search?q=user%3ANongfsq+language%3AShell&type=repositories"><img alt="Shell" src="https://img.shields.io/badge/Shell-111827?style=flat-square&logo=gnubash"></a>
+  <img alt="Zsh" src="https://img.shields.io/badge/Zsh-111827?style=flat-square&logo=gnubash">
   <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-111827?style=flat-square&logo=powershell">
   <a href="https://github.com/search?q=user%3ANongfsq+language%3ALua&type=repositories"><img alt="Lua" src="https://img.shields.io/badge/Lua-111827?style=flat-square&logo=lua"></a>
-  <a href="https://github.com/search?q=user%3ANongfsq+language%3AVue&type=repositories"><img alt="Vue" src="https://img.shields.io/badge/Vue-111827?style=flat-square&logo=vuedotjs"></a>
   <a href="https://github.com/search?q=user%3ANongfsq+language%3AC%2B%2B&type=repositories"><img alt="C++" src="https://img.shields.io/badge/C%2B%2B-111827?style=flat-square&logo=cplusplus"></a>
   <img alt="Neovim" src="https://img.shields.io/badge/Neovim-111827?style=flat-square&logo=neovim">
+  <img alt="LazyVim" src="https://img.shields.io/badge/LazyVim-111827?style=flat-square&logo=neovim">
+  <img alt="Raspberry Pi" src="https://img.shields.io/badge/Raspberry_Pi-111827?style=flat-square&logo=raspberrypi">
+  <img alt="Rime" src="https://img.shields.io/badge/Rime-111827?style=flat-square">
 </p>
 
 <p align="center">
@@ -213,6 +244,16 @@ mindmap
       SQLx PostgreSQL migrations
       OpenAPI Hurl contracts
       GraphQL experience boundary
+    Windows utilities
+      CSharp dotnet tray apps
+      Credential Manager storage
+      HDR and remote session guards
+      OTP clipboard handoff
+    Android utilities
+      Kotlin Jetpack Compose
+      Material 3 interface
+      ADB and root shell probes
+      Screen protection services
     Data systems
       Map data plane
       Cache keys and ETags
@@ -233,11 +274,15 @@ mindmap
       PM PLAN TASK documents
       Vibe Coding Skills
       GitHub CLI and PowerShell
+      uv and reproducible tools
+      MCP connected workflows
     Workstation
       Neovim LazyVim Lua
       Zsh shell tooling
       Rime input workflow
       Recoverable setup
+      Storage repair consoles
+      Raspberry Pi monitors
 ```
 
 ## Operating Standard
