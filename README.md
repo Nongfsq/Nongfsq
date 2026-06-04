@@ -33,33 +33,38 @@ flowchart LR
 Current work centers on a private production system. I keep the public description at the architecture level: domain ownership, API boundaries, data behavior, privilege separation, and the evidence needed to operate changes safely.
 
 ```mermaid
-mindmap
-  root((Architecture work))
-    Domain ownership
-      Canonical content identity
-      Lifecycle and moderation states
-      Reputation and audit ledgers
-      Public versus administrative authority
-    Contract boundaries
-      REST for protocol and data-plane reads
-      GraphQL for composed experience views
-      Generated clients and DTOs
-      Contract smoke tests
-    Data behavior
-      Viewport-scoped map reads
-      Approximate location policy
-      Search and cache read models
-      Migration and index discipline
-    Privilege model
-      Role-scoped capabilities
-      Admin-origin separation
-      Step-up verification
-      Non-enumerating responses
-    Operability
-      Structured diagnostics
-      Request correlation
-      Failure evidence
-      Deployment rollback path
+flowchart TB
+    Work["Architecture work"]
+
+    Work --> Domain["Domain ownership"]
+    Domain --> Identity["Canonical content identity"]
+    Domain --> Lifecycle["Lifecycle and moderation states"]
+    Domain --> Reputation["Reputation and audit ledgers"]
+    Domain --> Authority["Public versus administrative authority"]
+
+    Work --> Contracts["Contract boundaries"]
+    Contracts --> Rest["REST for protocol and data-plane reads"]
+    Contracts --> Graphql["GraphQL for composed experience views"]
+    Contracts --> Clients["Generated clients and DTOs"]
+    Contracts --> Smoke["Contract smoke tests"]
+
+    Work --> Data["Data behavior"]
+    Data --> Viewport["Viewport-scoped map reads"]
+    Data --> Location["Approximate location policy"]
+    Data --> ReadModels["Search and cache read models"]
+    Data --> Migration["Migration and index discipline"]
+
+    Work --> Privilege["Privilege model"]
+    Privilege --> Capabilities["Role-scoped capabilities"]
+    Privilege --> AdminOrigin["Admin-origin separation"]
+    Privilege --> StepUp["Step-up verification"]
+    Privilege --> NonEnumerating["Non-enumerating responses"]
+
+    Work --> Ops["Operability"]
+    Ops --> Diagnostics["Structured diagnostics"]
+    Ops --> Correlation["Request correlation"]
+    Ops --> Failure["Failure evidence"]
+    Ops --> Rollback["Deployment rollback path"]
 ```
 
 Current architecture tracks: contract design, domain-service boundaries, map read-model behavior, role-scoped governance, provider isolation, observability events, and repeatable verification.
@@ -156,48 +161,56 @@ Small public pieces from my own workbench: configs, repair scripts, monitors, an
 </p>
 
 ```mermaid
-mindmap
-  root((Technical focus))
-    Product architecture
-      Domain modeling
-      Canonical objects
-      Public and admin surfaces
-      Operational workflows
-    Frontend platform
-      Next.js React TypeScript
-      SSR RSC SEO
-      Mapbox WebGL
-      Accessibility and motion budgets
-    Backend platform
-      Rust Axum Tokio
-      SQLx PostgreSQL migrations
-      OpenAPI Hurl contracts
-      GraphQL experience boundary
-    Data systems
-      Map data plane
-      Cache keys and ETags
-      Search vectors and indexes
-      Audit and reputation ledgers
-    Governance
-      RBAC and WebAuthn
-      Step-up verification
-      Admin surface separation
-      Non-enumerating responses
-    Delivery and evidence
-      Vercel Railway Docker
-      Sentry PostHog NDJSON
-      Vitest Playwright Rust tests
-      AI-readable diagnostics
-    Automation
-      Codex workflows
-      PM PLAN TASK documents
-      Vibe Coding Skills
-      GitHub CLI and PowerShell
-    Workstation
-      Neovim LazyVim Lua
-      Zsh shell tooling
-      Rime input workflow
-      Recoverable setup
+flowchart TB
+    Focus["Technical focus"]
+
+    Focus --> Product["Product architecture"]
+    Product --> DomainModeling["Domain modeling"]
+    Product --> CanonicalObjects["Canonical objects"]
+    Product --> Surfaces["Public and admin surfaces"]
+    Product --> Workflows["Operational workflows"]
+
+    Focus --> Frontend["Frontend platform"]
+    Frontend --> NextStack["Next.js React TypeScript"]
+    Frontend --> Seo["SSR RSC SEO"]
+    Frontend --> Mapbox["Mapbox WebGL"]
+    Frontend --> Accessibility["Accessibility and motion budgets"]
+
+    Focus --> Backend["Backend platform"]
+    Backend --> RustStack["Rust Axum Tokio"]
+    Backend --> Sqlx["SQLx PostgreSQL migrations"]
+    Backend --> Openapi["OpenAPI Hurl contracts"]
+    Backend --> GraphqlBoundary["GraphQL experience boundary"]
+
+    Focus --> DataSystems["Data systems"]
+    DataSystems --> MapData["Map data plane"]
+    DataSystems --> Cache["Cache keys and ETags"]
+    DataSystems --> Search["Search vectors and indexes"]
+    DataSystems --> Ledgers["Audit and reputation ledgers"]
+
+    Focus --> Governance["Governance"]
+    Governance --> Rbac["RBAC and WebAuthn"]
+    Governance --> StepUpTech["Step-up verification"]
+    Governance --> AdminSurface["Admin surface separation"]
+    Governance --> NonEnumeratingTech["Non-enumerating responses"]
+
+    Focus --> Delivery["Delivery and evidence"]
+    Delivery --> Hosting["Vercel Railway Docker"]
+    Delivery --> Observability["Sentry PostHog NDJSON"]
+    Delivery --> Testing["Vitest Playwright Rust tests"]
+    Delivery --> DiagnosticsTech["AI-readable diagnostics"]
+
+    Focus --> Automation["Automation"]
+    Automation --> Codex["Codex workflows"]
+    Automation --> Planning["PM PLAN TASK documents"]
+    Automation --> Skills["Vibe Coding Skills"]
+    Automation --> Cli["GitHub CLI and PowerShell"]
+
+    Focus --> Workstation["Workstation"]
+    Workstation --> Neovim["Neovim LazyVim Lua"]
+    Workstation --> Shell["Zsh shell tooling"]
+    Workstation --> Rime["Rime input workflow"]
+    Workstation --> Setup["Recoverable setup"]
 ```
 
 ## Operating Standard
