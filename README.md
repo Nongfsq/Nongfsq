@@ -66,9 +66,49 @@ Current architecture tracks: contract design, domain-service boundaries, map rea
 
 ## Public Workbench
 
-Small public pieces from my own workbench: configs, repair scripts, monitors, and experiments that were useful enough to keep outside private systems. Not the main body of work, but usually practical.
+Open-source pieces from my own operating environment: session guards, storage repair consoles, governance kits, monitoring utilities, and workstation configuration. They are small, practical systems built around recoverability, long-session comfort, and explicit operator control.
 
 <table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/Nongfsq/HdrGuard">
+        <strong>HdrGuard</strong>
+      </a>
+      <br />
+      Windows tray utility that disables HDR during RustDesk remote sessions and restores it afterward.
+      <br />
+      <sub>C# · Windows tray · RustDesk · HDR session guard</sub>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/Nongfsq/usb-debug-guard">
+        <strong>usb-debug-guard</strong>
+      </a>
+      <br />
+      Root-only Android screen guard for long USB debugging sessions.
+      <br />
+      <sub>Kotlin · Android · Jetpack Compose · root tooling</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/Nongfsq/win11-storage-governance-kit">
+        <strong>win11-storage-governance-kit</strong>
+      </a>
+      <br />
+      Codex Skills kit for safe Windows 11 C-drive cleanup, storage migration, and cache governance.
+      <br />
+      <sub>Python · Codex Skills · Windows storage governance</sub>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/Nongfsq/samsung-t-series-console">
+        <strong>samsung-t-series-console</strong>
+      </a>
+      <br />
+      Windows-native fix and safe-eject console for Samsung T-series portable SSDs.
+      <br />
+      <sub>PowerShell · portable SSD repair · safe eject</sub>
+    </td>
+  </tr>
   <tr>
     <td width="50%">
       <a href="https://github.com/Nongfsq/clarity_lazyvim">
@@ -77,19 +117,8 @@ Small public pieces from my own workbench: configs, repair scripts, monitors, an
       <br />
       Accessible LazyVim configuration focused on readability, contrast, and long-session comfort.
       <br />
-      <sub>Lua · public template · editor environment</sub>
+      <sub>Lua · LazyVim · public template · editor environment</sub>
     </td>
-    <td width="50%">
-      <a href="https://github.com/Nongfsq/pi-monitor">
-        <strong>pi-monitor</strong>
-      </a>
-      <br />
-      Raspberry Pi website monitoring with RGB LED status and a small web interface.
-      <br />
-      <sub>Python · Raspberry Pi · monitoring</sub>
-    </td>
-  </tr>
-  <tr>
     <td width="50%">
       <a href="https://github.com/Nongfsq/zsh_config">
         <strong>zsh_config</strong>
@@ -97,16 +126,27 @@ Small public pieces from my own workbench: configs, repair scripts, monitors, an
       <br />
       Shell and Zsh configuration files for a portable, recoverable command-line setup.
       <br />
-      <sub>Shell · configuration · development environment</sub>
+      <sub>Shell · Zsh · configuration · development environment</sub>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
-      <a href="https://github.com/Nongfsq/codex-custom-model-picker-repair">
-        <strong>codex-custom-model-picker-repair</strong>
+      <a href="https://github.com/Nongfsq/pi-monitor">
+        <strong>pi-monitor</strong>
       </a>
       <br />
-      PowerShell repair tooling for Codex model picker configuration.
+      Raspberry Pi website monitoring with RGB LED status and a small web interface.
       <br />
-      <sub>PowerShell · Codex tooling · repair script</sub>
+      <sub>Python · Raspberry Pi · monitoring · hardware status</sub>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/Nongfsq?tab=repositories&q=&type=public&language=&sort=pushed">
+        <strong>More public repositories</strong>
+      </a>
+      <br />
+      Additional scripts, experiments, and operational utilities are published as they become reusable outside private systems.
+      <br />
+      <sub>Workbench tools · public releases · practical infrastructure</sub>
     </td>
   </tr>
 </table>
