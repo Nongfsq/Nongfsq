@@ -66,10 +66,19 @@ Current architecture tracks: contract design, domain-service boundaries, map rea
 
 ## Public Workbench
 
-Open-source pieces from my own operating environment: OTP handoff, remote-session display guards, Android debugging protection, storage governance, device repair, monitoring utilities, and workstation configuration. They are small, practical systems built around recoverability, long-session comfort, and explicit operator control.
+Open-source pieces from my own operating environment: remote workstation reachability, OTP handoff, session display guards, Android debugging protection, storage governance, device repair, monitoring utilities, and workstation configuration. They are small, practical systems built around recoverability, long-session comfort, and explicit operator control.
 
 <table>
   <tr>
+    <td width="50%">
+      <a href="https://github.com/Nongfsq/mac-remote-workstation">
+        <strong>mac-remote-workstation</strong>
+      </a>
+      <br />
+      Native macOS tool for keeping a plugged-in MacBook reachable while the lid is closed.
+      <br />
+      <sub>Swift · macOS · pmset · RustDesk · SSH workstation mode</sub>
+    </td>
     <td width="50%">
       <a href="https://github.com/Nongfsq/otp-bridge">
         <strong>otp-bridge</strong>
@@ -79,6 +88,8 @@ Open-source pieces from my own operating environment: OTP handoff, remote-sessio
       <br />
       <sub>C# · Windows tray · iOS Shortcuts · ntfy · Credential Manager</sub>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <a href="https://github.com/Nongfsq/HdrGuard">
         <strong>HdrGuard</strong>
@@ -171,6 +182,12 @@ Open-source pieces from my own operating environment: OTP handoff, remote-sessio
   <img alt="iOS Shortcuts" src="https://img.shields.io/badge/iOS_Shortcuts-111827?style=flat-square&logo=apple">
   <img alt="ntfy" src="https://img.shields.io/badge/ntfy-111827?style=flat-square">
   <br />
+  <a href="https://github.com/search?q=user%3ANongfsq+language%3ASwift&type=repositories"><img alt="Swift" src="https://img.shields.io/badge/Swift-111827?style=flat-square&logo=swift"></a>
+  <img alt="macOS" src="https://img.shields.io/badge/macOS-111827?style=flat-square&logo=apple">
+  <img alt="pmset" src="https://img.shields.io/badge/pmset-111827?style=flat-square&logo=apple">
+  <img alt="RustDesk" src="https://img.shields.io/badge/RustDesk-111827?style=flat-square">
+  <img alt="SSH" src="https://img.shields.io/badge/SSH-111827?style=flat-square&logo=gnubash">
+  <br />
   <a href="https://github.com/search?q=user%3ANongfsq+language%3AKotlin&type=repositories"><img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-111827?style=flat-square&logo=kotlin"></a>
   <img alt="Android" src="https://img.shields.io/badge/Android-111827?style=flat-square&logo=android">
   <img alt="Jetpack Compose" src="https://img.shields.io/badge/Jetpack_Compose-111827?style=flat-square&logo=jetpackcompose">
@@ -249,6 +266,11 @@ mindmap
       Credential Manager storage
       HDR and remote session guards
       OTP clipboard handoff
+    macOS utilities
+      Swift native apps
+      pmset power policies
+      Closed-lid workstation mode
+      RustDesk SSH Codex sessions
     Android utilities
       Kotlin Jetpack Compose
       Material 3 interface
