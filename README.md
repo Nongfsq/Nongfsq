@@ -1,16 +1,14 @@
-# Public operator tools
+# Systems and operator tools
 
-Open-source utilities for remote workstations, device maintenance, storage
-governance, recovery, and long-running sessions.
+Private product systems. Public utilities for remote workstations, device
+maintenance, storage governance, recovery, and long-running sessions.
 
 <!-- markdownlint-disable MD013 -->
-[![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)](https://github.com/search?q=user%3ANongfsq+language%3AC%23&type=repositories)
-[![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/search?q=user%3ANongfsq+language%3ASwift&type=repositories)
-[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://github.com/search?q=user%3ANongfsq+language%3AKotlin&type=repositories)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/search?q=user%3ANongfsq+language%3APython&type=repositories)
-[![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)](https://github.com/search?q=user%3ANongfsq+language%3APowerShell&type=repositories)
-[![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)](https://github.com/search?q=user%3ANongfsq+language%3ALua&type=repositories)
-[![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)](https://github.com/search?q=user%3ANongfsq+language%3AShell&type=repositories)
+![TypeScript · Next.js](https://img.shields.io/badge/TypeScript_%C2%B7_Next.js-1f2328?style=flat-square)
+![Rust · Axum](https://img.shields.io/badge/Rust_%C2%B7_Axum-1f2328?style=flat-square)
+![PostgreSQL · SQLx](https://img.shields.io/badge/PostgreSQL_%C2%B7_SQLx-1f2328?style=flat-square)
+![GraphQL · OpenAPI](https://img.shields.io/badge/GraphQL_%C2%B7_OpenAPI-1f2328?style=flat-square)
+![WebAuthn · OAuth2](https://img.shields.io/badge/WebAuthn_%C2%B7_OAuth2-1f2328?style=flat-square)
 <!-- markdownlint-enable MD013 -->
 
 ## Public work
