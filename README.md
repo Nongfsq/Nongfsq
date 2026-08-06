@@ -1,12 +1,17 @@
-# Frank X
+# Public operator tools
 
-**I make unreliable environments boring.**
+Open-source utilities for remote workstations, device maintenance, storage
+governance, recovery, and long-running sessions.
 
-Private product systems. Public operator tools. I build across macOS, Windows,
-Android, and infrastructure—with a bias toward native code, reversible operations,
-and evidence over ceremony.
-
-`reversible by default` · `native when it matters` · `built for the operator`
+<!-- markdownlint-disable MD013 -->
+[![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)](https://github.com/search?q=user%3ANongfsq+language%3AC%23&type=repositories)
+[![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/search?q=user%3ANongfsq+language%3ASwift&type=repositories)
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://github.com/search?q=user%3ANongfsq+language%3AKotlin&type=repositories)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/search?q=user%3ANongfsq+language%3APython&type=repositories)
+[![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)](https://github.com/search?q=user%3ANongfsq+language%3APowerShell&type=repositories)
+[![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)](https://github.com/search?q=user%3ANongfsq+language%3ALua&type=repositories)
+[![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)](https://github.com/search?q=user%3ANongfsq+language%3AShell&type=repositories)
+<!-- markdownlint-enable MD013 -->
 
 ## Public work
 
@@ -33,8 +38,3 @@ and evidence over ceremony.
 - [23333](https://github.com/Nongfsq/23333) — fork.
 
 [All public repositories →](https://github.com/Nongfsq?tab=repositories&type=public&sort=updated)
-
----
-
-Most product work stays private. These public repositories are the sharp edges I
-made reusable.
