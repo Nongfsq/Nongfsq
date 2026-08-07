@@ -29,12 +29,3 @@ Building software is an art.
 [otp-bridge](https://github.com/Nongfsq/otp-bridge) ·
 [pi-monitor](https://github.com/Nongfsq/pi-monitor) ·
 [zsh_config](https://github.com/Nongfsq/zsh_config)
-
-**Archive** —
-[QuickRecorder-Enhanced](https://github.com/Nongfsq/QuickRecorder-Enhanced)
-
-**Forks** —
-[Cambridge API](https://github.com/Nongfsq/cambridge-dictionary-api) ·
-[23333](https://github.com/Nongfsq/23333)
-
-[All public repositories →](https://github.com/Nongfsq?tab=repositories&type=public&sort=updated)
