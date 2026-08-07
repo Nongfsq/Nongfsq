@@ -1,5 +1,4 @@
-Software for remote workstations, device control, storage governance, and
-recovery—built around explicit state, narrow privileges, and reversible changes.
+Building software is an art.
 
 ## Selected systems
 
